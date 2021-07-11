@@ -3,7 +3,6 @@ import {
   VictoryChart,
   VictoryContainer,
   VictoryTheme,
-  VictoryTooltip,
 } from 'victory';
 
 export function BarChart({
@@ -20,7 +19,6 @@ export function BarChart({
   return (
     <VictoryChart domainPadding={30} theme={VictoryTheme.material}>
       <VictoryBar
-        labelComponent={<VictoryTooltip />}
         style={{ data: { fill: '#fde68a' } }}
         data={data}
         x={x}

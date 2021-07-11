@@ -63,12 +63,12 @@ export const getStaticProps = async () => {
         {
           genre: 'Fiction',
           value: totalBooksPerGenre.fiction,
-          label: `${totalBooksPerGenre.fiction} total`,
+          label: totalBooksPerGenre.fiction,
         },
         {
           genre: 'Non-Fiction',
           value: totalBooksPerGenre.nonFiction,
-          label: `${totalBooksPerGenre.nonFiction} total`,
+          label: totalBooksPerGenre.nonFiction,
         },
       ],
     },
