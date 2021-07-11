@@ -8,7 +8,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 17350,
     price: 8,
     year: 2016,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: '11/22/63: A Novel',
@@ -17,7 +17,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 2052,
     price: 22,
     year: 2011,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: '12 Rules for Life: An Antidote to Chaos',
@@ -26,7 +26,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 18979,
     price: 15,
     year: 2018,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: '1984 (Signet Classics)',
@@ -35,7 +35,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 21424,
     price: 6,
     year: 2017,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: '5,000 Awesome Facts (About Everything!) (National Geographic Kids)',
@@ -44,7 +44,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 7665,
     price: 12,
     year: 2019,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'A Dance with Dragons (A Song of Ice and Fire)',
@@ -53,7 +53,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 12643,
     price: 11,
     year: 2011,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -63,7 +63,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 19735,
     price: 30,
     year: 2014,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'A Gentleman in Moscow: A Novel',
@@ -72,7 +72,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 19699,
     price: 15,
     year: 2017,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'A Higher Loyalty: Truth, Lies, and Leadership',
@@ -81,7 +81,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5983,
     price: 3,
     year: 2018,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'A Man Called Ove: A Novel',
@@ -90,7 +90,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 23848,
     price: 8,
     year: 2016,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'A Man Called Ove: A Novel',
@@ -99,7 +99,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 23848,
     price: 8,
     year: 2017,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -109,7 +109,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 460,
     price: 2,
     year: 2010,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'A Stolen Life: A Memoir',
@@ -118,7 +118,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 4149,
     price: 32,
     year: 2011,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'A Wrinkle in Time (Time Quintet)',
@@ -127,7 +127,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5153,
     price: 5,
     year: 2018,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -137,7 +137,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5013,
     price: 17,
     year: 2009,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -147,7 +147,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 2313,
     price: 4,
     year: 2016,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Adult Coloring Book: Stress Relieving Animal Designs',
@@ -156,7 +156,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 2925,
     price: 6,
     year: 2015,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Adult Coloring Book: Stress Relieving Patterns',
@@ -165,7 +165,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 2951,
     price: 6,
     year: 2015,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -175,7 +175,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 2426,
     price: 8,
     year: 2015,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Alexander Hamilton',
@@ -184,7 +184,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 9198,
     price: 13,
     year: 2016,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'All the Light We Cannot See',
@@ -193,7 +193,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 36348,
     price: 14,
     year: 2014,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'All the Light We Cannot See',
@@ -202,7 +202,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 36348,
     price: 14,
     year: 2015,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Allegiant',
@@ -211,7 +211,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 6310,
     price: 13,
     year: 2013,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -221,7 +221,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 15921,
     price: 9,
     year: 2015,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'And the Mountains Echoed',
@@ -230,7 +230,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 12159,
     price: 13,
     year: 2013,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Arguing with Idiots: How to Stop Small Minds and Big Government',
@@ -239,7 +239,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 798,
     price: 5,
     year: 2009,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Astrophysics for People in a Hurry',
@@ -248,7 +248,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 9374,
     price: 9,
     year: 2017,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Autobiography of Mark Twain, Vol. 1',
@@ -257,7 +257,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 491,
     price: 14,
     year: 2010,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Baby Touch and Feel: Animals',
@@ -266,7 +266,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5360,
     price: 5,
     year: 2015,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: "Balance (Angie's Extreme Stress Menders)",
@@ -275,7 +275,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1909,
     price: 11,
     year: 2015,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Barefoot Contessa Foolproof: Recipes You Can Trust: A Cookbook',
@@ -284,7 +284,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1296,
     price: 24,
     year: 2012,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Barefoot Contessa, How Easy Is That?: Fabulous Recipes & Easy Tips',
@@ -293,7 +293,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 615,
     price: 21,
     year: 2010,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Becoming',
@@ -302,7 +302,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 61133,
     price: 11,
     year: 2018,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Becoming',
@@ -311,7 +311,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 61133,
     price: 11,
     year: 2019,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Being Mortal: Medicine and What Matters in the End',
@@ -320,7 +320,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 11113,
     price: 15,
     year: 2015,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Between the World and Me',
@@ -329,7 +329,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 10070,
     price: 13,
     year: 2015,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Between the World and Me',
@@ -338,7 +338,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 10070,
     price: 13,
     year: 2016,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Born to Run',
@@ -347,7 +347,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3729,
     price: 18,
     year: 2016,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Breaking Dawn (The Twilight Saga, Book 4)',
@@ -356,7 +356,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 9769,
     price: 13,
     year: 2009,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Broke: The Plan to Restore Our Trust, Truth and Treasure',
@@ -365,7 +365,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 471,
     price: 8,
     year: 2010,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Brown Bear, Brown Bear, What Do You See?',
@@ -374,7 +374,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 14344,
     price: 5,
     year: 2017,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Brown Bear, Brown Bear, What Do You See?',
@@ -383,7 +383,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 14344,
     price: 5,
     year: 2019,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Cabin Fever (Diary of a Wimpy Kid, Book 6)',
@@ -392,7 +392,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 4505,
     price: 0,
     year: 2011,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -402,7 +402,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 10369,
     price: 4,
     year: 2016,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: "Can't Hurt Me: Master Your Mind and Defy the Odds",
@@ -411,7 +411,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 16244,
     price: 18,
     year: 2019,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Capital in the Twenty First Century',
@@ -420,7 +420,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 2884,
     price: 28,
     year: 2014,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Catching Fire (The Hunger Games)',
@@ -429,7 +429,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 22614,
     price: 11,
     year: 2010,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Catching Fire (The Hunger Games)',
@@ -438,7 +438,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 22614,
     price: 11,
     year: 2011,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Catching Fire (The Hunger Games)',
@@ -447,7 +447,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 22614,
     price: 11,
     year: 2012,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Cravings: Recipes for All the Food You Want to Eat: A Cookbook',
@@ -456,7 +456,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 4761,
     price: 16,
     year: 2016,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Crazy Love: Overwhelmed by a Relentless God',
@@ -465,7 +465,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1542,
     price: 14,
     year: 2009,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Crazy Love: Overwhelmed by a Relentless God',
@@ -474,7 +474,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1542,
     price: 14,
     year: 2010,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Crazy Love: Overwhelmed by a Relentless God',
@@ -483,7 +483,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1542,
     price: 14,
     year: 2011,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Crazy Rich Asians (Crazy Rich Asians Trilogy)',
@@ -492,7 +492,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 6143,
     price: 8,
     year: 2018,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Creative Haven Creative Cats Coloring Book (Adult Coloring)',
@@ -501,7 +501,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 4022,
     price: 4,
     year: 2015,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Creative Haven Owls Coloring Book (Adult Coloring)',
@@ -510,7 +510,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3871,
     price: 5,
     year: 2015,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Cutting for Stone',
@@ -519,7 +519,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 4866,
     price: 11,
     year: 2010,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Cutting for Stone',
@@ -528,7 +528,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 4866,
     price: 11,
     year: 2011,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -538,7 +538,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1329,
     price: 10,
     year: 2013,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -548,7 +548,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 4642,
     price: 13,
     year: 2013,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -558,7 +558,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1541,
     price: 4,
     year: 2009,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Dead in the Family (Sookie Stackhouse/True Blood, Book 10)',
@@ -567,7 +567,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1924,
     price: 8,
     year: 2010,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Dead Reckoning (Sookie Stackhouse/True Blood, Book 11)',
@@ -576,7 +576,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 2094,
     price: 4,
     year: 2011,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Dear Zoo: A Lift-the-Flap Book',
@@ -585,7 +585,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 10922,
     price: 5,
     year: 2015,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Dear Zoo: A Lift-the-Flap Book',
@@ -594,7 +594,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 10922,
     price: 5,
     year: 2016,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Dear Zoo: A Lift-the-Flap Book',
@@ -603,7 +603,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 10922,
     price: 5,
     year: 2017,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Dear Zoo: A Lift-the-Flap Book',
@@ -612,7 +612,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 10922,
     price: 5,
     year: 2018,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Decision Points',
@@ -621,7 +621,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 2137,
     price: 17,
     year: 2010,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Delivering Happiness: A Path to Profits, Passion, and Purpose',
@@ -630,7 +630,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1651,
     price: 15,
     year: 2010,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -640,7 +640,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 6679,
     price: 105,
     year: 2013,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -650,7 +650,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 6679,
     price: 105,
     year: 2014,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Diary of a Wimpy Kid: Hard Luck, Book 8',
@@ -659,7 +659,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 6812,
     price: 0,
     year: 2013,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Diary of a Wimpy Kid: The Last Straw (Book 3)',
@@ -668,7 +668,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3837,
     price: 15,
     year: 2009,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Diary of a Wimpy Kid: The Long Haul',
@@ -677,7 +677,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 6540,
     price: 22,
     year: 2014,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -687,7 +687,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 7955,
     price: 5,
     year: 2019,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Divergent',
@@ -696,7 +696,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 27098,
     price: 15,
     year: 2013,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Divergent',
@@ -705,7 +705,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 27098,
     price: 15,
     year: 2014,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Divergent / Insurgent',
@@ -714,7 +714,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 17684,
     price: 6,
     year: 2014,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -724,7 +724,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 37,
     price: 6,
     year: 2009,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Doctor Sleep: A Novel',
@@ -733,7 +733,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 15845,
     price: 13,
     year: 2013,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Dog Days (Diary of a Wimpy Kid, Book 4) (Volume 4)',
@@ -742,7 +742,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3181,
     price: 12,
     year: 2009,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -752,7 +752,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5062,
     price: 6,
     year: 2018,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -762,7 +762,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 4786,
     price: 8,
     year: 2017,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -772,7 +772,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 7235,
     price: 4,
     year: 2018,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -782,7 +782,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 7235,
     price: 4,
     year: 2019,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -792,7 +792,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 12619,
     price: 8,
     year: 2019,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -802,7 +802,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 9089,
     price: 8,
     year: 2019,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -812,7 +812,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5470,
     price: 6,
     year: 2018,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Double Down (Diary of a Wimpy Kid #11)',
@@ -821,7 +821,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5118,
     price: 20,
     year: 2016,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -831,7 +831,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 2134,
     price: 5,
     year: 2015,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Drive: The Surprising Truth About What Motivates Us',
@@ -840,7 +840,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 2525,
     price: 16,
     year: 2010,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -850,7 +850,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 720,
     price: 1,
     year: 2009,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -860,7 +860,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 956,
     price: 14,
     year: 2009,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -870,7 +870,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 6346,
     price: 9,
     year: 2011,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -880,7 +880,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 6346,
     price: 9,
     year: 2012,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Eclipse (Twilight Sagas)',
@@ -889,7 +889,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5505,
     price: 7,
     year: 2009,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Eclipse (Twilight)',
@@ -898,7 +898,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5505,
     price: 18,
     year: 2009,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Educated: A Memoir',
@@ -907,7 +907,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 28729,
     price: 15,
     year: 2018,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Educated: A Memoir',
@@ -916,7 +916,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 28729,
     price: 15,
     year: 2019,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -926,7 +926,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5413,
     price: 9,
     year: 2015,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Fahrenheit 451',
@@ -935,7 +935,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 10721,
     price: 8,
     year: 2016,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Fahrenheit 451',
@@ -944,7 +944,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 10721,
     price: 8,
     year: 2018,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -954,7 +954,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 4370,
     price: 15,
     year: 2016,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Fear: Trump in the White House',
@@ -963,7 +963,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 6042,
     price: 2,
     year: 2018,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Fifty Shades Darker',
@@ -972,7 +972,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 23631,
     price: 7,
     year: 2012,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -982,7 +982,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 20262,
     price: 11,
     year: 2012,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -992,7 +992,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 47265,
     price: 14,
     year: 2012,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -1002,7 +1002,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 47265,
     price: 14,
     year: 2013,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -1012,7 +1012,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 13964,
     price: 32,
     year: 2012,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Fire and Fury: Inside the Trump White House',
@@ -1021,7 +1021,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 13677,
     price: 6,
     year: 2018,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'First 100 Words',
@@ -1030,7 +1030,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 17323,
     price: 4,
     year: 2014,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'First 100 Words',
@@ -1039,7 +1039,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 17323,
     price: 4,
     year: 2015,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'First 100 Words',
@@ -1048,7 +1048,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 17323,
     price: 4,
     year: 2016,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'First 100 Words',
@@ -1057,7 +1057,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 17323,
     price: 4,
     year: 2017,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'First 100 Words',
@@ -1066,7 +1066,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 17323,
     price: 4,
     year: 2018,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: "Food Rules: An Eater's Manual",
@@ -1075,7 +1075,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1555,
     price: 9,
     year: 2010,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Frozen (Little Golden Book)',
@@ -1084,7 +1084,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3642,
     price: 0,
     year: 2014,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -1094,7 +1094,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1215,
     price: 9,
     year: 2010,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -1104,7 +1104,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5594,
     price: 5,
     year: 2011,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -1114,7 +1114,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5594,
     price: 5,
     year: 2012,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -1124,7 +1124,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5594,
     price: 5,
     year: 2013,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: "George Washington's Sacred Fire",
@@ -1133,7 +1133,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 408,
     price: 20,
     year: 2010,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -1143,7 +1143,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 4799,
     price: 16,
     year: 2013,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: "Giraffes Can't Dance",
@@ -1152,7 +1152,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 14038,
     price: 4,
     year: 2015,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: "Giraffes Can't Dance",
@@ -1161,7 +1161,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 14038,
     price: 4,
     year: 2016,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: "Giraffes Can't Dance",
@@ -1170,7 +1170,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 14038,
     price: 4,
     year: 2017,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: "Giraffes Can't Dance",
@@ -1179,7 +1179,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 14038,
     price: 4,
     year: 2018,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: "Giraffes Can't Dance",
@@ -1188,7 +1188,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 14038,
     price: 4,
     year: 2019,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -1198,7 +1198,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 7660,
     price: 12,
     year: 2019,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -1208,7 +1208,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 22288,
     price: 12,
     year: 2018,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -1218,7 +1218,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 22288,
     price: 12,
     year: 2019,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -1228,7 +1228,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1365,
     price: 11,
     year: 2009,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Go Set a Watchman: A Novel',
@@ -1237,7 +1237,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 14982,
     price: 19,
     year: 2015,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Go the F**k to Sleep',
@@ -1246,7 +1246,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 9568,
     price: 9,
     year: 2011,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Going Rogue: An American Life',
@@ -1255,7 +1255,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1636,
     price: 6,
     year: 2009,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Gone Girl',
@@ -1264,7 +1264,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 57271,
     price: 10,
     year: 2012,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Gone Girl',
@@ -1273,7 +1273,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 57271,
     price: 10,
     year: 2013,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Gone Girl',
@@ -1282,7 +1282,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 57271,
     price: 9,
     year: 2014,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -1292,7 +1292,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 10141,
     price: 6,
     year: 2019,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: "Good to Great: Why Some Companies Make the Leap and Others Don't",
@@ -1301,7 +1301,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3457,
     price: 14,
     year: 2009,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: "Good to Great: Why Some Companies Make the Leap and Others Don't",
@@ -1310,7 +1310,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3457,
     price: 14,
     year: 2010,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: "Good to Great: Why Some Companies Make the Leap and Others Don't",
@@ -1319,7 +1319,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3457,
     price: 14,
     year: 2011,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: "Good to Great: Why Some Companies Make the Leap and Others Don't",
@@ -1328,7 +1328,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3457,
     price: 14,
     year: 2012,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Goodnight Moon',
@@ -1337,7 +1337,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 8837,
     price: 5,
     year: 2017,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Goodnight Moon',
@@ -1346,7 +1346,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 8837,
     price: 5,
     year: 2018,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Goodnight Moon',
@@ -1355,7 +1355,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 8837,
     price: 5,
     year: 2019,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -1365,7 +1365,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 7038,
     price: 7,
     year: 2012,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -1375,7 +1375,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 7038,
     price: 7,
     year: 2013,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -1385,7 +1385,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5972,
     price: 10,
     year: 2014,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -1395,7 +1395,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 25624,
     price: 14,
     year: 2015,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Guts',
@@ -1404,7 +1404,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5476,
     price: 7,
     year: 2019,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Hamilton: The Revolution',
@@ -1413,7 +1413,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5867,
     price: 54,
     year: 2016,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Happy, Happy, Happy: My Life and Legacy as the Duck Commander',
@@ -1422,7 +1422,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 4148,
     price: 11,
     year: 2013,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -1432,7 +1432,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 19622,
     price: 30,
     year: 2016,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -1442,7 +1442,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 23973,
     price: 12,
     year: 2016,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -1452,7 +1452,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 7758,
     price: 18,
     year: 2019,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -1462,7 +1462,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3146,
     price: 30,
     year: 2017,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -1472,7 +1472,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 10052,
     price: 22,
     year: 2016,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Harry Potter Coloring Book',
@@ -1481,7 +1481,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3564,
     price: 9,
     year: 2015,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Harry Potter Paperback Box Set (Books 1-7)',
@@ -1490,7 +1490,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 13471,
     price: 52,
     year: 2016,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Have a Little Faith: A True Story',
@@ -1499,7 +1499,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1930,
     price: 4,
     year: 2009,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -1509,7 +1509,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 15779,
     price: 10,
     year: 2011,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -1519,7 +1519,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 15779,
     price: 10,
     year: 2012,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Hillbilly Elegy: A Memoir of a Family and Culture in Crisis',
@@ -1528,7 +1528,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 15526,
     price: 14,
     year: 2016,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Hillbilly Elegy: A Memoir of a Family and Culture in Crisis',
@@ -1537,7 +1537,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 15526,
     price: 14,
     year: 2017,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Homebody: A Guide to Creating Spaces You Never Want to Leave',
@@ -1546,7 +1546,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3776,
     price: 22,
     year: 2018,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'How to Win Friends & Influence People',
@@ -1555,7 +1555,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 25001,
     price: 11,
     year: 2014,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'How to Win Friends & Influence People',
@@ -1564,7 +1564,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 25001,
     price: 11,
     year: 2015,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'How to Win Friends & Influence People',
@@ -1573,7 +1573,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 25001,
     price: 11,
     year: 2016,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'How to Win Friends & Influence People',
@@ -1582,7 +1582,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 25001,
     price: 11,
     year: 2017,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'How to Win Friends & Influence People',
@@ -1591,7 +1591,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 25001,
     price: 11,
     year: 2018,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Howard Stern Comes Again',
@@ -1600,7 +1600,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5272,
     price: 16,
     year: 2019,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Humans of New York',
@@ -1609,7 +1609,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3490,
     price: 15,
     year: 2013,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Humans of New York',
@@ -1618,7 +1618,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3490,
     price: 15,
     year: 2014,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Humans of New York : Stories',
@@ -1627,7 +1627,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 2812,
     price: 17,
     year: 2015,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -1637,7 +1637,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 4896,
     price: 17,
     year: 2013,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'I Am Confident, Brave & Beautiful: A Coloring Book for Girls',
@@ -1646,7 +1646,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 9737,
     price: 7,
     year: 2019,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'I, Alex Cross',
@@ -1655,7 +1655,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1320,
     price: 7,
     year: 2009,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'If Animals Kissed Good Night',
@@ -1664,7 +1664,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 16643,
     price: 4,
     year: 2017,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'If Animals Kissed Good Night',
@@ -1673,7 +1673,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 16643,
     price: 4,
     year: 2019,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'If I Stay',
@@ -1682,7 +1682,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 7153,
     price: 9,
     year: 2014,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -1692,7 +1692,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 4571,
     price: 21,
     year: 2011,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Inferno',
@@ -1701,7 +1701,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 29651,
     price: 14,
     year: 2013,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Inheritance: Book IV (Inheritance Cycle)',
@@ -1710,7 +1710,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5299,
     price: 20,
     year: 2011,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -1720,7 +1720,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 7396,
     price: 13,
     year: 2019,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -1730,7 +1730,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 7396,
     price: 13,
     year: 2018,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -1740,7 +1740,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 7062,
     price: 12,
     year: 2019,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -1750,7 +1750,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 19576,
     price: 8,
     year: 2011,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -1760,7 +1760,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 19576,
     price: 8,
     year: 2012,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -1770,7 +1770,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 19576,
     price: 8,
     year: 2013,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -1780,7 +1780,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 19576,
     price: 8,
     year: 2014,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -1790,7 +1790,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 19576,
     price: 8,
     year: 2015,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -1800,7 +1800,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 19576,
     price: 8,
     year: 2016,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'JOURNEY TO THE ICE P',
@@ -1809,7 +1809,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 978,
     price: 0,
     year: 2014,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Joyland (Hard Case Crime)',
@@ -1818,7 +1818,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 4748,
     price: 12,
     year: 2013,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -1828,7 +1828,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 8393,
     price: 17,
     year: 2017,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: "Killing Jesus (Bill O'Reilly's Killing Series)",
@@ -1837,7 +1837,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 11391,
     price: 12,
     year: 2013,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Killing Kennedy: The End of Camelot',
@@ -1846,7 +1846,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 8634,
     price: 25,
     year: 2012,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -1856,7 +1856,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 9342,
     price: 10,
     year: 2011,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -1866,7 +1866,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 9342,
     price: 10,
     year: 2012,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -1876,7 +1876,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 10927,
     price: 6,
     year: 2014,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -1886,7 +1886,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5235,
     price: 5,
     year: 2015,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -1896,7 +1896,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 8916,
     price: 6,
     year: 2016,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -1906,7 +1906,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 2507,
     price: 8,
     year: 2018,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Knock-Knock Jokes for Kids',
@@ -1915,7 +1915,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3673,
     price: 4,
     year: 2013,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Knock-Knock Jokes for Kids',
@@ -1924,7 +1924,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3673,
     price: 4,
     year: 2014,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Knock-Knock Jokes for Kids',
@@ -1933,7 +1933,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3673,
     price: 4,
     year: 2015,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -1943,7 +1943,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 11881,
     price: 13,
     year: 2018,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Laugh-Out-Loud Jokes for Kids',
@@ -1952,7 +1952,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 6990,
     price: 4,
     year: 2013,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Laugh-Out-Loud Jokes for Kids',
@@ -1961,7 +1961,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 6990,
     price: 4,
     year: 2014,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Laugh-Out-Loud Jokes for Kids',
@@ -1970,7 +1970,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 6990,
     price: 4,
     year: 2015,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Laugh-Out-Loud Jokes for Kids',
@@ -1979,7 +1979,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 6990,
     price: 4,
     year: 2016,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Laugh-Out-Loud Jokes for Kids',
@@ -1988,7 +1988,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 6990,
     price: 4,
     year: 2017,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Lean In: Women, Work, and the Will to Lead',
@@ -1997,7 +1997,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 6132,
     price: 13,
     year: 2013,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Leonardo da Vinci',
@@ -2006,7 +2006,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3014,
     price: 21,
     year: 2017,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -2016,7 +2016,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 7550,
     price: 6,
     year: 2018,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Liberty and Tyranny: A Conservative Manifesto',
@@ -2025,7 +2025,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3828,
     price: 15,
     year: 2009,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Life',
@@ -2034,7 +2034,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 2752,
     price: 18,
     year: 2010,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Little Bee: A Novel',
@@ -2043,7 +2043,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1467,
     price: 10,
     year: 2010,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Little Blue Truck',
@@ -2052,7 +2052,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1884,
     price: 0,
     year: 2014,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Little Fires Everywhere',
@@ -2061,7 +2061,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 25706,
     price: 12,
     year: 2018,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Looking for Alaska',
@@ -2070,7 +2070,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 8491,
     price: 7,
     year: 2014,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -2080,7 +2080,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1649,
     price: 13,
     year: 2011,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Love You Forever',
@@ -2089,7 +2089,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 18613,
     price: 5,
     year: 2014,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Love You Forever',
@@ -2098,7 +2098,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 18613,
     price: 5,
     year: 2015,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Magnolia Table: A Collection of Recipes for Gathering',
@@ -2107,7 +2107,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 9867,
     price: 16,
     year: 2018,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Make It Ahead: A Barefoot Contessa Cookbook',
@@ -2116,7 +2116,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1386,
     price: 20,
     year: 2014,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -2126,7 +2126,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 10199,
     price: 11,
     year: 2017,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Mastering the Art of French Cooking, Vol. 2',
@@ -2135,7 +2135,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 2926,
     price: 27,
     year: 2009,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Milk and Honey',
@@ -2144,7 +2144,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 17739,
     price: 8,
     year: 2016,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Milk and Honey',
@@ -2153,7 +2153,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 17739,
     price: 8,
     year: 2017,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Milk and Honey',
@@ -2162,7 +2162,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 17739,
     price: 8,
     year: 2018,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Milk and Vine: Inspirational Quotes From Classic Vines',
@@ -2171,7 +2171,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3113,
     price: 6,
     year: 2017,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Mindset: The New Psychology of Success',
@@ -2180,7 +2180,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5542,
     price: 10,
     year: 2014,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Mindset: The New Psychology of Success',
@@ -2189,7 +2189,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5542,
     price: 10,
     year: 2015,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Mindset: The New Psychology of Success',
@@ -2198,7 +2198,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5542,
     price: 10,
     year: 2016,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Mockingjay (The Hunger Games)',
@@ -2207,7 +2207,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 26741,
     price: 8,
     year: 2010,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Mockingjay (The Hunger Games)',
@@ -2216,7 +2216,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 26741,
     price: 8,
     year: 2011,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Mockingjay (The Hunger Games)',
@@ -2225,7 +2225,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 26741,
     price: 8,
     year: 2012,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'National Geographic Kids Why?: Over 1,111 Answers to Everything',
@@ -2234,7 +2234,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5347,
     price: 16,
     year: 2019,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -2244,7 +2244,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 7866,
     price: 11,
     year: 2019,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'New Moon (The Twilight Saga)',
@@ -2253,7 +2253,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5680,
     price: 10,
     year: 2009,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Night (Night)',
@@ -2262,7 +2262,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5178,
     price: 9,
     year: 2016,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -2272,7 +2272,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 8093,
     price: 14,
     year: 2012,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Obama: An Intimate Portrait',
@@ -2281,7 +2281,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3192,
     price: 22,
     year: 2017,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: "Oh, the Places You'll Go!",
@@ -2290,7 +2290,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 21834,
     price: 8,
     year: 2012,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: "Oh, the Places You'll Go!",
@@ -2299,7 +2299,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 21834,
     price: 8,
     year: 2013,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: "Oh, the Places You'll Go!",
@@ -2308,7 +2308,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 21834,
     price: 8,
     year: 2014,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: "Oh, the Places You'll Go!",
@@ -2317,7 +2317,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 21834,
     price: 8,
     year: 2015,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: "Oh, the Places You'll Go!",
@@ -2326,7 +2326,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 21834,
     price: 8,
     year: 2016,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: "Oh, the Places You'll Go!",
@@ -2335,7 +2335,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 21834,
     price: 8,
     year: 2017,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: "Oh, the Places You'll Go!",
@@ -2344,7 +2344,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 21834,
     price: 8,
     year: 2018,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: "Oh, the Places You'll Go!",
@@ -2353,7 +2353,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 21834,
     price: 8,
     year: 2019,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Old School (Diary of a Wimpy Kid #10)',
@@ -2362,7 +2362,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 6169,
     price: 7,
     year: 2015,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Olive Kitteridge',
@@ -2371,7 +2371,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 4519,
     price: 12,
     year: 2009,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'One Thousand Gifts: A Dare to Live Fully Right Where You Are',
@@ -2380,7 +2380,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3163,
     price: 13,
     year: 2011,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'One Thousand Gifts: A Dare to Live Fully Right Where You Are',
@@ -2389,7 +2389,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3163,
     price: 13,
     year: 2012,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Option B: Facing Adversity, Building Resilience, and Finding Joy',
@@ -2398,7 +2398,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1831,
     price: 9,
     year: 2017,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Origin: A Novel (Robert Langdon)',
@@ -2407,7 +2407,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 18904,
     price: 13,
     year: 2017,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Orphan Train',
@@ -2416,7 +2416,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 21930,
     price: 11,
     year: 2014,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Outliers: The Story of Success',
@@ -2425,7 +2425,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 10426,
     price: 20,
     year: 2009,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Outliers: The Story of Success',
@@ -2434,7 +2434,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 10426,
     price: 20,
     year: 2010,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'P is for Potty! (Sesame Street) (Lift-the-Flap)',
@@ -2443,7 +2443,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 10820,
     price: 5,
     year: 2018,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'P is for Potty! (Sesame Street) (Lift-the-Flap)',
@@ -2452,7 +2452,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 10820,
     price: 5,
     year: 2019,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Percy Jackson and the Olympians Paperback Boxed Set (Books 1-3)',
@@ -2461,7 +2461,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 548,
     price: 2,
     year: 2010,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: "Player's Handbook (Dungeons & Dragons)",
@@ -2470,7 +2470,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 16990,
     price: 27,
     year: 2017,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: "Player's Handbook (Dungeons & Dragons)",
@@ -2479,7 +2479,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 16990,
     price: 27,
     year: 2018,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: "Player's Handbook (Dungeons & Dragons)",
@@ -2488,7 +2488,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 16990,
     price: 27,
     year: 2019,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -2498,7 +2498,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3503,
     price: 9,
     year: 2016,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: "Proof of Heaven: A Neurosurgeon's Journey into the Afterlife",
@@ -2507,7 +2507,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 13616,
     price: 10,
     year: 2012,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: "Proof of Heaven: A Neurosurgeon's Journey into the Afterlife",
@@ -2516,7 +2516,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 13616,
     price: 10,
     year: 2013,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -2526,7 +2526,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 8580,
     price: 46,
     year: 2009,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -2536,7 +2536,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 8580,
     price: 46,
     year: 2010,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -2546,7 +2546,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 8580,
     price: 46,
     year: 2011,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -2556,7 +2556,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 8580,
     price: 46,
     year: 2012,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -2566,7 +2566,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 8580,
     price: 46,
     year: 2013,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -2576,7 +2576,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 8580,
     price: 46,
     year: 2014,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -2586,7 +2586,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 8580,
     price: 46,
     year: 2015,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -2596,7 +2596,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 8580,
     price: 46,
     year: 2016,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -2606,7 +2606,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 8580,
     price: 46,
     year: 2017,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -2616,7 +2616,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 8580,
     price: 46,
     year: 2018,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Puppy Birthday to You! (Paw Patrol) (Little Golden Book)',
@@ -2625,7 +2625,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 4757,
     price: 4,
     year: 2017,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: "Quiet: The Power of Introverts in a World That Can't Stop Talking",
@@ -2634,7 +2634,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 10009,
     price: 20,
     year: 2012,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: "Quiet: The Power of Introverts in a World That Can't Stop Talking",
@@ -2643,7 +2643,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 10009,
     price: 7,
     year: 2013,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Radical: Taking Back Your Faith from the American Dream',
@@ -2652,7 +2652,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1985,
     price: 9,
     year: 2010,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Radical: Taking Back Your Faith from the American Dream',
@@ -2661,7 +2661,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1985,
     price: 9,
     year: 2011,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Ready Player One: A Novel',
@@ -2670,7 +2670,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 22536,
     price: 12,
     year: 2017,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Ready Player One: A Novel',
@@ -2679,7 +2679,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 22536,
     price: 12,
     year: 2018,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -2689,7 +2689,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 7150,
     price: 12,
     year: 2013,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -2699,7 +2699,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3836,
     price: 12,
     year: 2014,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking',
@@ -2708,7 +2708,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 7802,
     price: 20,
     year: 2018,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking',
@@ -2717,7 +2717,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 7802,
     price: 20,
     year: 2019,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: "Sarah's Key",
@@ -2726,7 +2726,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3619,
     price: 10,
     year: 2010,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -2736,7 +2736,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 23047,
     price: 6,
     year: 2018,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -2746,7 +2746,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 23047,
     price: 6,
     year: 2019,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -2756,7 +2756,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 9366,
     price: 9,
     year: 2015,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Sh*t My Dad Says',
@@ -2765,7 +2765,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1265,
     price: 11,
     year: 2010,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -2775,7 +2775,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3923,
     price: 16,
     year: 2018,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Shred: The Revolutionary Diet: 6 Weeks 4 Inches 2 Sizes',
@@ -2784,7 +2784,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 2272,
     price: 6,
     year: 2013,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Sookie Stackhouse',
@@ -2793,7 +2793,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 973,
     price: 25,
     year: 2009,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -2803,7 +2803,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 220,
     price: 17,
     year: 2013,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Steve Jobs',
@@ -2812,7 +2812,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 7827,
     price: 20,
     year: 2011,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Steve Jobs',
@@ -2821,7 +2821,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 7827,
     price: 20,
     year: 2012,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Strange Planet (Strange Planet Series)',
@@ -2830,7 +2830,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 9382,
     price: 6,
     year: 2019,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'StrengthsFinder 2.0',
@@ -2839,7 +2839,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5069,
     price: 17,
     year: 2009,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'StrengthsFinder 2.0',
@@ -2848,7 +2848,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5069,
     price: 17,
     year: 2010,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'StrengthsFinder 2.0',
@@ -2857,7 +2857,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5069,
     price: 17,
     year: 2011,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'StrengthsFinder 2.0',
@@ -2866,7 +2866,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5069,
     price: 17,
     year: 2012,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'StrengthsFinder 2.0',
@@ -2875,7 +2875,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5069,
     price: 17,
     year: 2013,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'StrengthsFinder 2.0',
@@ -2884,7 +2884,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5069,
     price: 17,
     year: 2014,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'StrengthsFinder 2.0',
@@ -2893,7 +2893,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5069,
     price: 17,
     year: 2015,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'StrengthsFinder 2.0',
@@ -2902,7 +2902,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5069,
     price: 17,
     year: 2016,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'StrengthsFinder 2.0',
@@ -2911,7 +2911,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5069,
     price: 17,
     year: 2017,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -2921,7 +2921,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1583,
     price: 18,
     year: 2009,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Switch: How to Change Things When Change Is Hard',
@@ -2930,7 +2930,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1907,
     price: 13,
     year: 2010,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Sycamore Row (Jake Brigance)',
@@ -2939,7 +2939,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 23114,
     price: 18,
     year: 2013,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -2949,7 +2949,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 637,
     price: 20,
     year: 2010,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -2959,7 +2959,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 637,
     price: 20,
     year: 2011,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: "The 17 Day Diet: A Doctor's Plan Designed for Rapid Results",
@@ -2968,7 +2968,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 2314,
     price: 22,
     year: 2011,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -2978,7 +2978,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 4587,
     price: 21,
     year: 2011,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The 5 Love Languages: The Secret to Love That Lasts',
@@ -2987,7 +2987,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3477,
     price: 28,
     year: 2010,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The 5 Love Languages: The Secret to Love That Lasts',
@@ -2996,7 +2996,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3477,
     price: 28,
     year: 2011,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The 5 Love Languages: The Secret to Love That Lasts',
@@ -3005,7 +3005,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3477,
     price: 28,
     year: 2012,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The 5 Love Languages: The Secret to Love That Lasts',
@@ -3014,7 +3014,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3477,
     price: 28,
     year: 2013,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The 5 Love Languages: The Secret to Love That Lasts',
@@ -3023,7 +3023,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3477,
     price: 28,
     year: 2014,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The 5 Love Languages: The Secret to Love that Lasts',
@@ -3032,7 +3032,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 25554,
     price: 8,
     year: 2015,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The 5 Love Languages: The Secret to Love that Lasts',
@@ -3041,7 +3041,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 25554,
     price: 8,
     year: 2016,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The 5 Love Languages: The Secret to Love that Lasts',
@@ -3050,7 +3050,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 25554,
     price: 8,
     year: 2017,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The 5 Love Languages: The Secret to Love that Lasts',
@@ -3059,7 +3059,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 25554,
     price: 8,
     year: 2018,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The 5 Love Languages: The Secret to Love that Lasts',
@@ -3068,7 +3068,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 25554,
     price: 8,
     year: 2019,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The 5000 Year Leap',
@@ -3077,7 +3077,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1680,
     price: 12,
     year: 2009,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -3087,7 +3087,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 9325,
     price: 24,
     year: 2009,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -3097,7 +3097,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 9325,
     price: 24,
     year: 2011,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -3107,7 +3107,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 9325,
     price: 24,
     year: 2012,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -3117,7 +3117,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 9325,
     price: 24,
     year: 2013,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -3127,7 +3127,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 4725,
     price: 16,
     year: 2015,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -3137,7 +3137,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 4725,
     price: 16,
     year: 2016,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -3147,7 +3147,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 4725,
     price: 16,
     year: 2017,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The Alchemist',
@@ -3156,7 +3156,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 35799,
     price: 39,
     year: 2014,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Amateur',
@@ -3165,7 +3165,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 2580,
     price: 9,
     year: 2012,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The Art of Racing in the Rain: A Novel',
@@ -3174,7 +3174,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 11813,
     price: 10,
     year: 2010,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Art of Racing in the Rain: A Novel',
@@ -3183,7 +3183,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 11813,
     price: 10,
     year: 2011,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Big Short: Inside the Doomsday Machine',
@@ -3192,7 +3192,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3536,
     price: 17,
     year: 2010,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The Blood of Olympus (The Heroes of Olympus (5))',
@@ -3201,7 +3201,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 6600,
     price: 11,
     year: 2014,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -3211,7 +3211,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1789,
     price: 14,
     year: 2012,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -3221,7 +3221,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 12361,
     price: 12,
     year: 2019,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The Book of Basketball: The NBA According to The Sports Guy',
@@ -3230,7 +3230,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 858,
     price: 53,
     year: 2009,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The Book Thief',
@@ -3239,7 +3239,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 23148,
     price: 6,
     year: 2013,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Book Thief',
@@ -3248,7 +3248,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 23148,
     price: 6,
     year: 2014,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Book with No Pictures',
@@ -3257,7 +3257,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 8081,
     price: 8,
     year: 2014,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Book with No Pictures',
@@ -3266,7 +3266,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 8081,
     price: 8,
     year: 2015,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -3276,7 +3276,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 23358,
     price: 12,
     year: 2014,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -3286,7 +3286,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 23358,
     price: 12,
     year: 2015,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The Casual Vacancy',
@@ -3295,7 +3295,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 9372,
     price: 12,
     year: 2012,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -3305,7 +3305,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 4633,
     price: 21,
     year: 2011,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -3315,7 +3315,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 13061,
     price: 6,
     year: 2018,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -3325,7 +3325,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 13061,
     price: 6,
     year: 2019,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The Confession: A Novel',
@@ -3334,7 +3334,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3523,
     price: 13,
     year: 2010,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Constitution of the United States',
@@ -3343,7 +3343,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 2774,
     price: 0,
     year: 2016,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -3353,7 +3353,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 440,
     price: 11,
     year: 2010,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The Day the Crayons Quit',
@@ -3362,7 +3362,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 8922,
     price: 9,
     year: 2013,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Day the Crayons Quit',
@@ -3371,7 +3371,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 8922,
     price: 9,
     year: 2014,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Day the Crayons Quit',
@@ -3380,7 +3380,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 8922,
     price: 9,
     year: 2015,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -3390,7 +3390,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 2023,
     price: 15,
     year: 2011,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The Elegance of the Hedgehog',
@@ -3399,7 +3399,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1859,
     price: 11,
     year: 2009,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Fault in Our Stars',
@@ -3408,7 +3408,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 50482,
     price: 13,
     year: 2012,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Fault in Our Stars',
@@ -3417,7 +3417,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 50482,
     price: 13,
     year: 2013,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Fault in Our Stars',
@@ -3426,7 +3426,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 50482,
     price: 7,
     year: 2014,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Fault in Our Stars',
@@ -3435,7 +3435,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 50482,
     price: 13,
     year: 2014,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Five Dysfunctions of a Team: A Leadership Fable',
@@ -3444,7 +3444,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3207,
     price: 6,
     year: 2009,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The Five Dysfunctions of a Team: A Leadership Fable',
@@ -3453,7 +3453,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3207,
     price: 6,
     year: 2010,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The Five Dysfunctions of a Team: A Leadership Fable',
@@ -3462,7 +3462,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3207,
     price: 6,
     year: 2011,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The Five Dysfunctions of a Team: A Leadership Fable',
@@ -3471,7 +3471,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3207,
     price: 6,
     year: 2012,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The Five Dysfunctions of a Team: A Leadership Fable',
@@ -3480,7 +3480,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3207,
     price: 6,
     year: 2013,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -3490,7 +3490,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 803,
     price: 9,
     year: 2009,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -3500,7 +3500,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 23308,
     price: 6,
     year: 2013,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -3510,7 +3510,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 23308,
     price: 6,
     year: 2015,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -3520,7 +3520,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 23308,
     price: 6,
     year: 2016,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -3530,7 +3530,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 23308,
     price: 6,
     year: 2017,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -3540,7 +3540,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 23308,
     price: 6,
     year: 2018,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -3550,7 +3550,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 23308,
     price: 6,
     year: 2019,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The Getaway',
@@ -3559,7 +3559,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5836,
     price: 0,
     year: 2017,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Girl on the Train',
@@ -3568,7 +3568,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 79446,
     price: 18,
     year: 2015,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Girl on the Train',
@@ -3577,7 +3577,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 79446,
     price: 7,
     year: 2016,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: "The Girl Who Kicked the Hornet's Nest (Millennium Trilogy)",
@@ -3586,7 +3586,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 7747,
     price: 14,
     year: 2010,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: "The Girl Who Kicked the Hornet's Nest (Millennium Trilogy)",
@@ -3595,7 +3595,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 7747,
     price: 14,
     year: 2011,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Girl Who Played with Fire (Millennium Series)',
@@ -3604,7 +3604,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 7251,
     price: 9,
     year: 2010,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Girl Who Played with Fire (Millennium)',
@@ -3613,7 +3613,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 7251,
     price: 16,
     year: 2009,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Girl with the Dragon Tattoo (Millennium Series)',
@@ -3622,7 +3622,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 10559,
     price: 2,
     year: 2009,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Girl with the Dragon Tattoo (Millennium Series)',
@@ -3631,7 +3631,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 10559,
     price: 2,
     year: 2010,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Going-To-Bed Book',
@@ -3640,7 +3640,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5249,
     price: 5,
     year: 2016,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Going-To-Bed Book',
@@ -3649,7 +3649,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5249,
     price: 5,
     year: 2017,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Goldfinch: A Novel (Pulitzer Prize for Fiction)',
@@ -3658,7 +3658,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 33844,
     price: 20,
     year: 2013,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Goldfinch: A Novel (Pulitzer Prize for Fiction)',
@@ -3667,7 +3667,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 33844,
     price: 20,
     year: 2014,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Great Gatsby',
@@ -3676,7 +3676,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 11616,
     price: 7,
     year: 2012,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Great Gatsby',
@@ -3685,7 +3685,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 11616,
     price: 7,
     year: 2013,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Great Gatsby',
@@ -3694,7 +3694,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 11616,
     price: 7,
     year: 2014,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Guardians: A Novel',
@@ -3703,7 +3703,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 13609,
     price: 14,
     year: 2019,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Guernsey Literary and Potato Peel Pie Society',
@@ -3712,7 +3712,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 8587,
     price: 10,
     year: 2009,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: "The Handmaid's Tale",
@@ -3721,7 +3721,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 29442,
     price: 7,
     year: 2017,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -3731,7 +3731,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 11098,
     price: 13,
     year: 2012,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Hate U Give',
@@ -3740,7 +3740,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 9947,
     price: 11,
     year: 2018,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Help',
@@ -3749,7 +3749,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 13871,
     price: 6,
     year: 2009,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Help',
@@ -3758,7 +3758,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 13871,
     price: 6,
     year: 2010,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Help',
@@ -3767,7 +3767,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 13871,
     price: 8,
     year: 2011,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Help',
@@ -3776,7 +3776,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 13871,
     price: 7,
     year: 2011,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The House of Hades (Heroes of Olympus, Book 4)',
@@ -3785,7 +3785,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 6982,
     price: 14,
     year: 2013,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Hunger Games',
@@ -3794,7 +3794,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 32122,
     price: 14,
     year: 2010,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Hunger Games (Book 1)',
@@ -3803,7 +3803,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 32122,
     price: 8,
     year: 2011,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Hunger Games (Book 1)',
@@ -3812,7 +3812,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 32122,
     price: 8,
     year: 2012,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Hunger Games Trilogy Boxed Set (1)',
@@ -3821,7 +3821,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 16949,
     price: 30,
     year: 2011,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Hunger Games Trilogy Boxed Set (1)',
@@ -3830,7 +3830,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 16949,
     price: 30,
     year: 2012,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Immortal Life of Henrietta Lacks',
@@ -3839,7 +3839,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 9289,
     price: 13,
     year: 2010,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The Immortal Life of Henrietta Lacks',
@@ -3848,7 +3848,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 9289,
     price: 9,
     year: 2011,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The Immortal Life of Henrietta Lacks',
@@ -3857,7 +3857,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 9289,
     price: 9,
     year: 2012,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -3867,7 +3867,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 7368,
     price: 7,
     year: 2017,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -3877,7 +3877,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 7368,
     price: 7,
     year: 2018,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The Last Lecture',
@@ -3886,7 +3886,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 4028,
     price: 9,
     year: 2009,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The Last Olympian (Percy Jackson and the Olympians, Book 5)',
@@ -3895,7 +3895,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 4628,
     price: 7,
     year: 2009,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Last Olympian (Percy Jackson and the Olympians, Book 5)',
@@ -3904,7 +3904,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 4628,
     price: 7,
     year: 2010,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Legend of Zelda: Hyrule Historia',
@@ -3913,7 +3913,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5396,
     price: 20,
     year: 2013,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Lego Ideas Book: Unlock Your Imagination',
@@ -3922,7 +3922,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 4247,
     price: 13,
     year: 2011,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The Lego Ideas Book: Unlock Your Imagination',
@@ -3931,7 +3931,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 4247,
     price: 13,
     year: 2012,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -3941,7 +3941,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 22641,
     price: 11,
     year: 2015,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -3951,7 +3951,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 22641,
     price: 11,
     year: 2016,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -3961,7 +3961,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 22641,
     price: 11,
     year: 2017,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -3971,7 +3971,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 22641,
     price: 11,
     year: 2019,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The Litigators',
@@ -3980,7 +3980,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 6222,
     price: 18,
     year: 2011,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Lost Hero (Heroes of Olympus, Book 1)',
@@ -3989,7 +3989,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 4506,
     price: 14,
     year: 2010,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Lost Symbol',
@@ -3998,7 +3998,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 8747,
     price: 19,
     year: 2009,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Love Dare',
@@ -4007,7 +4007,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1655,
     price: 13,
     year: 2009,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The Magnolia Story',
@@ -4016,7 +4016,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 7861,
     price: 5,
     year: 2016,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The Mark of Athena (Heroes of Olympus, Book 3)',
@@ -4025,7 +4025,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 6247,
     price: 10,
     year: 2012,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Martian',
@@ -4034,7 +4034,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 39459,
     price: 9,
     year: 2015,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Maze Runner (Book 1)',
@@ -4043,7 +4043,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 10101,
     price: 8,
     year: 2014,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Meltdown (Diary of a Wimpy Kid Book 13)',
@@ -4052,7 +4052,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5898,
     price: 8,
     year: 2018,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Mueller Report',
@@ -4061,7 +4061,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 2744,
     price: 12,
     year: 2019,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The Nightingale: A Novel',
@@ -4070,7 +4070,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 49288,
     price: 11,
     year: 2015,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Nightingale: A Novel',
@@ -4079,7 +4079,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 49288,
     price: 11,
     year: 2016,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Official SAT Study Guide',
@@ -4088,7 +4088,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1201,
     price: 40,
     year: 2010,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The Official SAT Study Guide',
@@ -4097,7 +4097,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1201,
     price: 40,
     year: 2011,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The Official SAT Study Guide',
@@ -4106,7 +4106,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1201,
     price: 40,
     year: 2012,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The Official SAT Study Guide',
@@ -4115,7 +4115,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1201,
     price: 40,
     year: 2013,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The Official SAT Study Guide',
@@ -4124,7 +4124,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1201,
     price: 40,
     year: 2014,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -4134,7 +4134,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 807,
     price: 36,
     year: 2016,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The Paris Wife: A Novel',
@@ -4143,7 +4143,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3759,
     price: 16,
     year: 2011,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -4153,7 +4153,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 2663,
     price: 17,
     year: 2013,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -4163,7 +4163,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3428,
     price: 14,
     year: 2015,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The Pioneer Woman Cooks: Food from My Frontier',
@@ -4172,7 +4172,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 2876,
     price: 21,
     year: 2012,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -4182,7 +4182,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3601,
     price: 18,
     year: 2018,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -4192,7 +4192,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 7058,
     price: 17,
     year: 2018,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The Pout-Pout Fish',
@@ -4201,7 +4201,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 9784,
     price: 5,
     year: 2017,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Pout-Pout Fish',
@@ -4210,7 +4210,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 9784,
     price: 5,
     year: 2018,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Power of Habit: Why We Do What We Do in Life and Business',
@@ -4219,7 +4219,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 10795,
     price: 21,
     year: 2012,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The President Is Missing: A Novel',
@@ -4228,7 +4228,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 10191,
     price: 18,
     year: 2018,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Racketeer',
@@ -4237,7 +4237,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 14493,
     price: 18,
     year: 2012,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Red Pyramid (The Kane Chronicles, Book 1)',
@@ -4246,7 +4246,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 2186,
     price: 12,
     year: 2010,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -4256,7 +4256,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1204,
     price: 14,
     year: 2010,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: "The Serpent's Shadow (The Kane Chronicles, Book 3)",
@@ -4265,7 +4265,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 2091,
     price: 12,
     year: 2012,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Shack: Where Tragedy Confronts Eternity',
@@ -4274,7 +4274,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 19720,
     price: 8,
     year: 2009,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Shack: Where Tragedy Confronts Eternity',
@@ -4283,7 +4283,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 19720,
     price: 8,
     year: 2017,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -4293,7 +4293,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 2122,
     price: 0,
     year: 2010,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Silent Patient',
@@ -4302,7 +4302,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 27536,
     price: 14,
     year: 2019,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Son of Neptune (Heroes of Olympus, Book 2)',
@@ -4311,7 +4311,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 4290,
     price: 10,
     year: 2011,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -4321,7 +4321,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 26490,
     price: 15,
     year: 2017,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -4331,7 +4331,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 26490,
     price: 15,
     year: 2018,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -4341,7 +4341,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 26490,
     price: 15,
     year: 2019,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The Sun and Her Flowers',
@@ -4350,7 +4350,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5487,
     price: 9,
     year: 2017,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The Third Wheel (Diary of a Wimpy Kid, Book 7)',
@@ -4359,7 +4359,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 6377,
     price: 7,
     year: 2012,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Throne of Fire (The Kane Chronicles, Book 2)',
@@ -4368,7 +4368,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1463,
     price: 10,
     year: 2011,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: "The Time Traveler's Wife",
@@ -4377,7 +4377,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3759,
     price: 6,
     year: 2009,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Tipping Point: How Little Things Can Make a Big Difference',
@@ -4386,7 +4386,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3503,
     price: 9,
     year: 2009,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -4396,7 +4396,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 11550,
     price: 10,
     year: 2019,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The Twilight Saga Collection',
@@ -4405,7 +4405,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3801,
     price: 82,
     year: 2009,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Ugly Truth (Diary of a Wimpy Kid, Book 5)',
@@ -4414,7 +4414,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3796,
     price: 12,
     year: 2010,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -4424,7 +4424,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 9030,
     price: 10,
     year: 2019,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The Very Hungry Caterpillar',
@@ -4433,7 +4433,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 19546,
     price: 5,
     year: 2013,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Very Hungry Caterpillar',
@@ -4442,7 +4442,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 19546,
     price: 5,
     year: 2014,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Very Hungry Caterpillar',
@@ -4451,7 +4451,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 19546,
     price: 5,
     year: 2015,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Very Hungry Caterpillar',
@@ -4460,7 +4460,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 19546,
     price: 5,
     year: 2016,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Very Hungry Caterpillar',
@@ -4469,7 +4469,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 19546,
     price: 5,
     year: 2017,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Very Hungry Caterpillar',
@@ -4478,7 +4478,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 19546,
     price: 5,
     year: 2018,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Very Hungry Caterpillar',
@@ -4487,7 +4487,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 19546,
     price: 5,
     year: 2019,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Whole30: The 30-Day Guide to Total Health and Food Freedom',
@@ -4496,7 +4496,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 7508,
     price: 16,
     year: 2015,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The Whole30: The 30-Day Guide to Total Health and Food Freedom',
@@ -4505,7 +4505,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 7508,
     price: 16,
     year: 2016,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The Whole30: The 30-Day Guide to Total Health and Food Freedom',
@@ -4514,7 +4514,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 7508,
     price: 16,
     year: 2017,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'The Wonderful Things You Will Be',
@@ -4523,7 +4523,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 8842,
     price: 10,
     year: 2016,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Wonderful Things You Will Be',
@@ -4532,7 +4532,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 8842,
     price: 10,
     year: 2017,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Wonderful Things You Will Be',
@@ -4541,7 +4541,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 8842,
     price: 10,
     year: 2018,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Wonderful Things You Will Be',
@@ -4550,7 +4550,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 8842,
     price: 10,
     year: 2019,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Wonky Donkey',
@@ -4559,7 +4559,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 30183,
     price: 4,
     year: 2018,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Wonky Donkey',
@@ -4568,7 +4568,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 30183,
     price: 4,
     year: 2019,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'The Wright Brothers',
@@ -4577,7 +4577,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 6169,
     price: 16,
     year: 2015,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -4587,7 +4587,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 7034,
     price: 15,
     year: 2013,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Thinking, Fast and Slow',
@@ -4596,7 +4596,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 11034,
     price: 19,
     year: 2011,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Thinking, Fast and Slow',
@@ -4605,7 +4605,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 11034,
     price: 19,
     year: 2012,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Thirteen Reasons Why',
@@ -4614,7 +4614,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 7932,
     price: 9,
     year: 2017,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Thomas Jefferson: The Art of Power',
@@ -4623,7 +4623,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1904,
     price: 23,
     year: 2012,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -4633,7 +4633,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3319,
     price: 11,
     year: 2009,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -4643,7 +4643,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3319,
     price: 11,
     year: 2010,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -4653,7 +4653,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 11128,
     price: 23,
     year: 2014,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -4663,7 +4663,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 11128,
     price: 23,
     year: 2015,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -4673,7 +4673,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 11128,
     price: 23,
     year: 2016,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -4683,7 +4683,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 11128,
     price: 23,
     year: 2017,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Tina Fey: Bossypants',
@@ -4692,7 +4692,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5977,
     price: 12,
     year: 2011,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'To Kill a Mockingbird',
@@ -4701,7 +4701,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 26234,
     price: 0,
     year: 2013,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'To Kill a Mockingbird',
@@ -4710,7 +4710,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 26234,
     price: 0,
     year: 2014,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'To Kill a Mockingbird',
@@ -4719,7 +4719,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 26234,
     price: 0,
     year: 2015,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'To Kill a Mockingbird',
@@ -4728,7 +4728,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 26234,
     price: 0,
     year: 2016,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'To Kill a Mockingbird',
@@ -4737,7 +4737,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 26234,
     price: 7,
     year: 2019,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -4747,7 +4747,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 4360,
     price: 21,
     year: 2017,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Towers of Midnight (Wheel of Time, Book Thirteen)',
@@ -4756,7 +4756,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 2282,
     price: 21,
     year: 2010,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'True Compass: A Memoir',
@@ -4765,7 +4765,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 438,
     price: 15,
     year: 2009,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Twilight (The Twilight Saga, Book 1)',
@@ -4774,7 +4774,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 11676,
     price: 9,
     year: 2009,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -4784,7 +4784,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 2586,
     price: 5,
     year: 2014,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -4794,7 +4794,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 29673,
     price: 16,
     year: 2010,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -4804,7 +4804,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 29673,
     price: 16,
     year: 2011,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -4814,7 +4814,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 29673,
     price: 16,
     year: 2012,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -4824,7 +4824,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 29673,
     price: 13,
     year: 2014,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -4834,7 +4834,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 29673,
     price: 16,
     year: 2014,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Under the Dome: A Novel',
@@ -4843,7 +4843,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 6740,
     price: 20,
     year: 2009,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Unfreedom of the Press',
@@ -4852,7 +4852,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5956,
     price: 11,
     year: 2019,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -4862,7 +4862,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 6108,
     price: 4,
     year: 2019,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -4872,7 +4872,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 4585,
     price: 9,
     year: 2016,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Watchmen',
@@ -4881,7 +4881,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3829,
     price: 42,
     year: 2009,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Water for Elephants: A Novel',
@@ -4890,7 +4890,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 8958,
     price: 12,
     year: 2011,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'What Happened',
@@ -4899,7 +4899,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 5492,
     price: 18,
     year: 2017,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -4909,7 +4909,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 9292,
     price: 17,
     year: 2014,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'What Pet Should I Get? (Classic Seuss)',
@@ -4918,7 +4918,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1873,
     price: 14,
     year: 2015,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'What Should Danny Do? (The Power to Choose Series)',
@@ -4927,7 +4927,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 8170,
     price: 13,
     year: 2019,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: "What to Expect When You're Expecting",
@@ -4936,7 +4936,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 3341,
     price: 9,
     year: 2011,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -4946,7 +4946,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 7497,
     price: 6,
     year: 2012,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -4956,7 +4956,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 7497,
     price: 6,
     year: 2013,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'When Breath Becomes Air',
@@ -4965,7 +4965,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 13779,
     price: 14,
     year: 2016,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Where the Crawdads Sing',
@@ -4974,7 +4974,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 87841,
     price: 15,
     year: 2019,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Where the Wild Things Are',
@@ -4983,7 +4983,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 9967,
     price: 13,
     year: 2009,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -4993,7 +4993,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 6669,
     price: 12,
     year: 2018,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Wild: From Lost to Found on the Pacific Crest Trail',
@@ -5002,7 +5002,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 17044,
     price: 18,
     year: 2012,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Winter of the World: Book Two of the Century Trilogy',
@@ -5011,7 +5011,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 10760,
     price: 15,
     year: 2012,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Women Food and God: An Unexpected Path to Almost Everything',
@@ -5020,7 +5020,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 1302,
     price: 11,
     year: 2010,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name: 'Wonder',
@@ -5029,7 +5029,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 21625,
     price: 9,
     year: 2013,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Wonder',
@@ -5038,7 +5038,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 21625,
     price: 9,
     year: 2014,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Wonder',
@@ -5047,7 +5047,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 21625,
     price: 9,
     year: 2015,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Wonder',
@@ -5056,7 +5056,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 21625,
     price: 9,
     year: 2016,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Wonder',
@@ -5065,7 +5065,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 21625,
     price: 9,
     year: 2017,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name: 'Wrecking Ball (Diary of a Wimpy Kid Book 14)',
@@ -5074,7 +5074,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 9413,
     price: 8,
     year: 2019,
-    genre: 'Fiction',
+    genre: 'fiction',
   },
   {
     name:
@@ -5084,7 +5084,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 14331,
     price: 8,
     year: 2016,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -5094,7 +5094,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 14331,
     price: 8,
     year: 2017,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -5104,7 +5104,7 @@ export const bestSellers: BestSeller[] = [
     reviews: 14331,
     price: 8,
     year: 2018,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
   {
     name:
@@ -5114,6 +5114,6 @@ export const bestSellers: BestSeller[] = [
     reviews: 14331,
     price: 8,
     year: 2019,
-    genre: 'Non Fiction',
+    genre: 'nonFiction',
   },
 ];
