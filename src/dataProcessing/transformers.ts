@@ -1,10 +1,33 @@
-import { groupBy, countBy, entries, maxBy, sumBy, uniqBy } from 'lodash';
+import {
+  groupBy,
+  countBy,
+  entries,
+  maxBy,
+  sumBy,
+  uniqBy,
+  map,
+  sortBy,
+  take,
+} from 'lodash';
 import {
   BestSeller,
   BookGenreIndexes,
   Years,
   YearValuePair,
 } from 'types/types';
+
+interface AuthorAndReviews {
+  author: string;
+  total: number;
+}
+
+const orderCriteria = ({
+  order,
+  value,
+}: {
+  order: 'ASC' | 'DESC';
+  value: number;
+}) => (order === 'DESC' ? value * -1 : value);
 
 export function groupBooksByGenre(
   books: BestSeller[],
@@ -55,3 +78,39 @@ export function mostReviewsPerGenre(
     fiction: totalFictionReviews,
   };
 }
+
+export const getAuthorsAndReviews = (
+  books: BestSeller[],
+): Array<AuthorAndReviews> => {
+  const booksWithoutDuplicate = uniqBy(books, 'name');
+  const authorBooks = groupBy(booksWithoutDuplicate, 'author');
+
+  /**
+   * Here we have a loop inside a loop. I don't really like it, but that's
+   * what's available right now.
+   */
+  return map(authorBooks, (author) => {
+    const totalReviews = sumBy(author, 'reviews');
+    return {
+      author: author[0].author,
+      total: totalReviews,
+    };
+  });
+};
+
+export const sortAndTake = <T>({
+  collection,
+  limit = 10,
+  order = 'DESC',
+  keyToOrderBy,
+}: {
+  collection: T[];
+  limit?: number;
+  order?: 'ASC' | 'DESC';
+  keyToOrderBy: string;
+}): T[] => {
+  const sortedCollection = sortBy(collection, (record) =>
+    orderCriteria({ order, value: record[keyToOrderBy] }),
+  );
+  return take(sortedCollection, limit);
+};

@@ -4,19 +4,19 @@ import {
   getMostReviewedBook,
   getMostReviewsPerGenre,
   getTotalBooksPerGenre,
+  popularAuthorsByReview,
 } from 'dataProcessing/data';
 import { bestSellers } from 'rawData/bestsellers';
 import { PromotionalBanner } from 'components/PromotionalBanner/PromotionalBanner';
 import { Section } from 'components/Layout/Section';
 import { DidYouKnow } from 'components/DidYouKnow/DidYouKnow';
-import { BarChart } from 'components/BarChart/BarChart';
 
 export default function Home({
   datasetSize,
   mostReviewedBook,
   mostReviewsPerGenre,
   totalBooksPerGenre,
-  totalBooksPerGenreDataset,
+  newDataSet,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
     <div>
@@ -35,14 +35,9 @@ export default function Home({
               nonFictionBestSellers={totalBooksPerGenre.nonFiction}
             />
           </Section>
-          <Section>
-            <BarChart
-              data={totalBooksPerGenreDataset}
-              x="genre"
-              y="value"
-              title="Total books per year"
-            />
-          </Section>
+          <h2 className="text-4xl font-bold ">
+            Let's explore some author's data
+          </h2>
         </div>
       </div>
     </div>
@@ -59,7 +54,63 @@ export const getStaticProps = async () => {
       totalBooksPerGenre,
       mostReviewsPerGenre: getMostReviewsPerGenre(bestSellers),
       datasetSize: bestSellers.length,
-      totalBooksPerGenreDataset: [
+      newDataSet: {
+        'top-10-authors-by-reviews': {
+          collectionLabel: 'Top 10 authors by reviews',
+          collectionId: 'top-10-authors-by-reviews',
+          chartData: {
+            x: 'author',
+            y: 'total',
+            data: popularAuthorsByReview({ books: bestSellers }),
+          },
+        },
+        'bottom-10-authors-by-reviews': {
+          collectionLabel: 'Botttom 10 authors by reviews',
+          collectionId: 'bottom-10-authors-by-reviews',
+          chartData: {
+            x: 'author',
+            y: 'total',
+            data: popularAuthorsByReview({ books: bestSellers, order: 'ASC' }),
+          },
+        },
+        'top-10-authors-by-earnings': {
+          collectionLabel: 'Top 10 authors by earnings',
+          collectionId: 'top-10-authors-by-earnings',
+          chartData: {
+            x: '',
+            y: '',
+            data: [],
+          },
+        },
+        'bottom-10-authors-by-earnings': {
+          collectionLabel: 'Bottom 10 authors by earnings',
+          collectionId: 'bottom-10-authors-by-earnings',
+          chartData: {
+            x: '',
+            y: '',
+            data: [],
+          },
+        },
+        'top-10-authors-with-more-bestsellers': {
+          collectionLabel: 'Top 10 authors with more bestsellers',
+          collectionId: 'top-10-authors-with-more-bestsellers',
+          chartData: {
+            x: '',
+            y: '',
+            data: [],
+          },
+        },
+        'bottom-10-authors-with-more-bestsellers': {
+          collectionLabel: 'Bottom 10 authors with more bestsellers',
+          collectionId: 'bottom-10-authors-with-more-bestsellers',
+          chartData: {
+            x: '',
+            y: '',
+            data: [],
+          },
+        },
+      },
+      dataset: [
         {
           genre: 'Fiction',
           value: totalBooksPerGenre.fiction,

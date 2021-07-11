@@ -5,6 +5,8 @@ import {
   groupBooksByGenre,
   totalBooksPerGenre,
   mostReviewsPerGenre,
+  getAuthorsAndReviews,
+  sortAndTake,
 } from 'dataProcessing/transformers';
 
 type MostReviewedBook = {
@@ -45,4 +47,22 @@ export const getMostReviewsPerGenre = (books: BestSeller[]) => {
     fiction,
     nonFiction,
   };
+};
+
+export const popularAuthorsByReview = ({
+  books,
+  limit = 10,
+  order = 'DESC',
+}: {
+  books: BestSeller[];
+  limit?: number;
+  order?: 'DESC' | 'ASC';
+}) => {
+  const authorsAndReviews = getAuthorsAndReviews(books);
+  return sortAndTake({
+    collection: authorsAndReviews,
+    order,
+    keyToOrderBy: 'total',
+    limit,
+  });
 };
