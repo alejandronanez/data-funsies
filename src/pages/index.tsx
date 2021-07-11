@@ -9,12 +9,14 @@ import { bestSellers } from 'rawData/bestsellers';
 import { PromotionalBanner } from 'components/PromotionalBanner/PromotionalBanner';
 import { Section } from 'components/Layout/Section';
 import { DidYouKnow } from 'components/DidYouKnow/DidYouKnow';
+import { BarChart } from 'components/BarChart/BarChart';
 
 export default function Home({
   datasetSize,
   mostReviewedBook,
   mostReviewsPerGenre,
   totalBooksPerGenre,
+  totalBooksPerGenreDataset,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
     <div>
@@ -33,19 +35,42 @@ export default function Home({
               nonFictionBestSellers={totalBooksPerGenre.nonFiction}
             />
           </Section>
+          <Section>
+            <BarChart
+              data={totalBooksPerGenreDataset}
+              x="genre"
+              y="value"
+              title="Total books per year"
+            />
+          </Section>
         </div>
       </div>
     </div>
   );
 }
 export const getStaticProps = async () => {
+  const totalBooksPerGenre = getTotalBooksPerGenre(bestSellers);
+
   return {
     props: {
+      // TODO: Use this somewhere else?
       booksPerYear: getBooksPerYear(bestSellers),
       mostReviewedBook: getMostReviewedBook(bestSellers),
-      totalBooksPerGenre: getTotalBooksPerGenre(bestSellers),
+      totalBooksPerGenre,
       mostReviewsPerGenre: getMostReviewsPerGenre(bestSellers),
       datasetSize: bestSellers.length,
+      totalBooksPerGenreDataset: [
+        {
+          genre: 'Fiction',
+          value: totalBooksPerGenre.fiction,
+          label: `${totalBooksPerGenre.fiction} total`,
+        },
+        {
+          genre: 'Non-Fiction',
+          value: totalBooksPerGenre.nonFiction,
+          label: `${totalBooksPerGenre.nonFiction} total`,
+        },
+      ],
     },
   };
 };
