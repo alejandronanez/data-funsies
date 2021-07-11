@@ -1,6 +1,6 @@
 export type BookGenre = 'nonFiction' | 'fiction';
 export type BookGenreIndexes<T> = { [Property in BookGenre]?: T };
-export type YearItBecameBestSeller =
+export type Years =
   | 2009
   | 2010
   | 2011
@@ -13,13 +13,15 @@ export type YearItBecameBestSeller =
   | 2018
   | 2019;
 
-export type YearIndexes<T> = { [Property in YearItBecameBestSeller]?: T };
+export type YearIndexes<T> = { [Property in Years]?: T };
 export interface BestSeller {
   name: string;
   author: string;
   userRating: number;
   reviews: number;
   price: number;
-  year: YearItBecameBestSeller;
+  year: Years;
   genre: BookGenre;
 }
+
+export type YearValuePair = { year: Years; value: number };
