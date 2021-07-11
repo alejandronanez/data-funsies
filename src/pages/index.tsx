@@ -1,11 +1,10 @@
 import { InferGetStaticPropsType } from 'next';
 import {
-  getBooksPerYear,
   getMostReviewedBook,
   getMostReviewsPerGenre,
   getTotalBooksPerGenre,
   getPopularAuthorsByReview,
-  getPopularAuthorsByRevenew,
+  getPopularAuthorsByRevenue,
   getAuthorsByBestSeller,
 } from 'dataProcessing/data';
 import { bestSellers } from 'rawData/bestsellers';
@@ -81,7 +80,7 @@ export const getStaticProps = async () => {
           chartData: {
             x: 'author',
             y: 'total',
-            data: getPopularAuthorsByRevenew({ books: bestSellers }),
+            data: getPopularAuthorsByRevenue({ books: bestSellers }),
           },
         },
         {
@@ -90,7 +89,7 @@ export const getStaticProps = async () => {
           chartData: {
             x: 'author',
             y: 'total',
-            data: getPopularAuthorsByRevenew({
+            data: getPopularAuthorsByRevenue({
               books: bestSellers,
               order: 'ASC',
             }),

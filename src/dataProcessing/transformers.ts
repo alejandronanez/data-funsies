@@ -1,63 +1,14 @@
-import {
-  groupBy,
-  countBy,
-  entries,
-  maxBy,
-  sumBy,
-  uniqBy,
-  map,
-  sortBy,
-  take,
-} from 'lodash';
-import {
-  BestSeller,
-  BookGenreIndexes,
-  Years,
-  YearValuePair,
-} from 'types/types';
+import { countBy, groupBy, map, maxBy, sumBy, uniqBy } from 'lodash';
+import { BestSeller } from 'types/types';
 
-interface AuthorAndReviews {
-  author: string;
-  total: number;
-}
+const uniqueBooksByAuthor = (books: BestSeller[]) =>
+  groupBy(uniqBy(books, 'name'), 'author');
 
-const orderCriteria = ({
-  order,
-  value,
-}: {
-  order: 'ASC' | 'DESC';
-  value: number;
-}) => (order === 'DESC' ? value * -1 : value);
-
-export function groupBooksByGenre(
-  books: BestSeller[],
-): BookGenreIndexes<BestSeller[]> {
-  const { fiction, nonFiction } = groupBy(books, 'genre');
-
-  return {
-    fiction,
-    nonFiction,
-  };
-}
-
-export function totalBooksPerYear(books: BestSeller[]): YearValuePair[] {
-  const booksPerYear = countBy(books, 'year');
-
-  return entries(booksPerYear).map(([year, value]) => ({
-    // TS complains about the fact that `year` is not a number anymore as it's
-    // coming from an object, so it assumes the key is a string.
-    year: +year as Years,
-    value,
-  }));
-}
-
-export function maxReviewsForBooks(books: BestSeller[]): BestSeller {
+export function maxReviewsForBooks(books: BestSeller[]) {
   return maxBy(books, 'reviews');
 }
 
-export function totalBooksPerGenre(
-  books: BestSeller[],
-): BookGenreIndexes<number> {
+export function totalBooksPerGenre(books: BestSeller[]) {
   const { fiction, nonFiction } = countBy(books, 'genre');
 
   return {
@@ -66,9 +17,7 @@ export function totalBooksPerGenre(
   };
 }
 
-export function mostReviewsPerGenre(
-  books: BestSeller[],
-): BookGenreIndexes<number> {
+export function mostReviewsPerGenre(books: BestSeller[]) {
   const { fiction, nonFiction } = groupBy(books, 'genre');
   const totalFictionReviews = sumBy(uniqBy(fiction, 'name'), 'reviews');
   const totalNonFictionReviews = sumBy(uniqBy(nonFiction, 'name'), 'reviews');
@@ -79,12 +28,9 @@ export function mostReviewsPerGenre(
   };
 }
 
-const uniqueBooksByAuthor = (books: BestSeller[]) =>
-  groupBy(uniqBy(books, 'name'), 'author');
-
 export const getAuthorsAndReviews = (
   books: BestSeller[],
-): Array<AuthorAndReviews> => {
+): Array<{ author: string; total: number }> => {
   const authorBooks = uniqueBooksByAuthor(books);
 
   /**
@@ -100,7 +46,7 @@ export const getAuthorsAndReviews = (
   });
 };
 
-export const getAuthorsByRevenew = (books: BestSeller[]) => {
+export const getAuthorsByRevenue = (books: BestSeller[]) => {
   const authorBooks = uniqueBooksByAuthor(books);
 
   return map(authorBooks, (book) => {
@@ -110,23 +56,6 @@ export const getAuthorsByRevenew = (books: BestSeller[]) => {
       total: totalSold,
     };
   });
-};
-
-export const sortAndTake = <T>({
-  collection,
-  limit = 10,
-  order = 'DESC',
-  keyToOrderBy,
-}: {
-  collection: T[];
-  limit?: number;
-  order?: 'ASC' | 'DESC';
-  keyToOrderBy: string;
-}): T[] => {
-  const sortedCollection = sortBy(collection, (record) =>
-    orderCriteria({ order, value: record[keyToOrderBy] }),
-  );
-  return take(sortedCollection, limit);
 };
 
 export const getBooksByAuthor = (books: BestSeller[]) => {

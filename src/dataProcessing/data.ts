@@ -1,33 +1,21 @@
-import { BestSeller } from 'types/types';
+import { BestSeller, Order } from 'types/types';
 import {
   maxReviewsForBooks,
-  totalBooksPerYear,
-  groupBooksByGenre,
   totalBooksPerGenre,
   mostReviewsPerGenre,
   getAuthorsAndReviews,
-  sortAndTake,
-  getAuthorsByRevenew,
+  getAuthorsByRevenue,
   getBooksByAuthor,
 } from 'dataProcessing/transformers';
+import { sortAndTake } from 'dataProcessing/utils';
 
-type MostReviewedBook = {
-  name: string;
-  reviews: number;
-  price: number;
-  author: string;
-};
+interface getAuthorsDataFnParams {
+  books: BestSeller[];
+  limit?: number;
+  order?: Order;
+}
 
-export const getBooksPerYear = (books: BestSeller[]) => {
-  const { fiction, nonFiction } = groupBooksByGenre(books);
-
-  return {
-    fiction: totalBooksPerYear(fiction),
-    nonFiction: totalBooksPerYear(nonFiction),
-  };
-};
-
-export const getMostReviewedBook = (books: BestSeller[]): MostReviewedBook => {
+export const getMostReviewedBook = (books: BestSeller[]) => {
   const { author, name, price, reviews } = maxReviewsForBooks(books);
 
   return {
@@ -55,11 +43,7 @@ export const getPopularAuthorsByReview = ({
   books,
   limit = 5,
   order = 'DESC',
-}: {
-  books: BestSeller[];
-  limit?: number;
-  order?: 'DESC' | 'ASC';
-}) => {
+}: getAuthorsDataFnParams) => {
   const authorsAndReviews = getAuthorsAndReviews(books);
   return sortAndTake({
     collection: authorsAndReviews,
@@ -69,16 +53,12 @@ export const getPopularAuthorsByReview = ({
   });
 };
 
-export const getPopularAuthorsByRevenew = ({
+export const getPopularAuthorsByRevenue = ({
   books,
   limit = 5,
   order = 'DESC',
-}: {
-  books: BestSeller[];
-  limit?: number;
-  order?: 'DESC' | 'ASC';
-}) => {
-  const authorsByRevenew = getAuthorsByRevenew(books);
+}: getAuthorsDataFnParams) => {
+  const authorsByRevenew = getAuthorsByRevenue(books);
   return sortAndTake({
     collection: authorsByRevenew,
     order,
@@ -91,11 +71,7 @@ export const getAuthorsByBestSeller = ({
   books,
   limit = 5,
   order = 'DESC',
-}: {
-  books: BestSeller[];
-  limit?: number;
-  order?: 'DESC' | 'ASC';
-}) => {
+}: getAuthorsDataFnParams) => {
   const booksByAuthor = getBooksByAuthor(books);
   return sortAndTake({
     collection: booksByAuthor,
