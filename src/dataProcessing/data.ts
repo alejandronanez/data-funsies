@@ -4,7 +4,7 @@ import {
   groupBooksByGenre,
 } from 'dataProcessing/transformers';
 
-const booksPerYear = (books: BestSeller[]) => {
+export const getBooksPerYear = (books: BestSeller[]) => {
   const { fiction, nonFiction } = groupBooksByGenre(books);
 
   return {
