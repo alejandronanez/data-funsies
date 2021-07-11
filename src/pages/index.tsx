@@ -36,7 +36,7 @@ export default function Home({
             />
           </Section>
           <h2 className="text-4xl font-bold ">
-            Let's explore some author's data
+            Let&apos;s explore some author&apos;s data
           </h2>
         </div>
       </div>
@@ -65,7 +65,7 @@ export const getStaticProps = async () => {
           },
         },
         'bottom-10-authors-by-reviews': {
-          collectionLabel: 'Botttom 10 authors by reviews',
+          collectionLabel: 'Bottom 10 authors by reviews',
           collectionId: 'bottom-10-authors-by-reviews',
           chartData: {
             x: 'author',
