@@ -7,6 +7,7 @@ import {
   mostReviewsPerGenre,
   getAuthorsAndReviews,
   sortAndTake,
+  getAuthorsByRevenew,
 } from 'dataProcessing/transformers';
 
 type MostReviewedBook = {
@@ -49,7 +50,7 @@ export const getMostReviewsPerGenre = (books: BestSeller[]) => {
   };
 };
 
-export const popularAuthorsByReview = ({
+export const getPopularAuthorsByReview = ({
   books,
   limit = 10,
   order = 'DESC',
@@ -61,6 +62,24 @@ export const popularAuthorsByReview = ({
   const authorsAndReviews = getAuthorsAndReviews(books);
   return sortAndTake({
     collection: authorsAndReviews,
+    order,
+    keyToOrderBy: 'total',
+    limit,
+  });
+};
+
+export const getPopularAuthorsByRevenew = ({
+  books,
+  limit = 10,
+  order = 'DESC',
+}: {
+  books: BestSeller[];
+  limit?: number;
+  order?: 'DESC' | 'ASC';
+}) => {
+  const authorsByRevenew = getAuthorsByRevenew(books);
+  return sortAndTake({
+    collection: authorsByRevenew,
     order,
     keyToOrderBy: 'total',
     limit,

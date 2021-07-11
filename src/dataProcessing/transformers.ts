@@ -79,11 +79,13 @@ export function mostReviewsPerGenre(
   };
 }
 
+const uniqueBooksByAuthor = (books: BestSeller[]) =>
+  groupBy(uniqBy(books, 'name'), 'author');
+
 export const getAuthorsAndReviews = (
   books: BestSeller[],
 ): Array<AuthorAndReviews> => {
-  const booksWithoutDuplicate = uniqBy(books, 'name');
-  const authorBooks = groupBy(booksWithoutDuplicate, 'author');
+  const authorBooks = uniqueBooksByAuthor(books);
 
   /**
    * Here we have a loop inside a loop. I don't really like it, but that's
@@ -94,6 +96,18 @@ export const getAuthorsAndReviews = (
     return {
       author: author[0].author,
       total: totalReviews,
+    };
+  });
+};
+
+export const getAuthorsByRevenew = (books: BestSeller[]) => {
+  const authorBooks = uniqueBooksByAuthor(books);
+
+  return map(authorBooks, (book) => {
+    const totalSold = sumBy(book, (book) => book.price * book.reviews);
+    return {
+      author: book[0].author,
+      total: totalSold,
     };
   });
 };

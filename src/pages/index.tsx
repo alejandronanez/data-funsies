@@ -4,7 +4,8 @@ import {
   getMostReviewedBook,
   getMostReviewsPerGenre,
   getTotalBooksPerGenre,
-  popularAuthorsByReview,
+  getPopularAuthorsByReview,
+  getPopularAuthorsByRevenew,
 } from 'dataProcessing/data';
 import { bestSellers } from 'rawData/bestsellers';
 import { PromotionalBanner } from 'components/PromotionalBanner/PromotionalBanner';
@@ -61,7 +62,7 @@ export const getStaticProps = async () => {
           chartData: {
             x: 'author',
             y: 'total',
-            data: popularAuthorsByReview({ books: bestSellers }),
+            data: getPopularAuthorsByReview({ books: bestSellers }),
           },
         },
         'bottom-10-authors-by-reviews': {
@@ -70,25 +71,31 @@ export const getStaticProps = async () => {
           chartData: {
             x: 'author',
             y: 'total',
-            data: popularAuthorsByReview({ books: bestSellers, order: 'ASC' }),
+            data: getPopularAuthorsByReview({
+              books: bestSellers,
+              order: 'ASC',
+            }),
           },
         },
         'top-10-authors-by-earnings': {
           collectionLabel: 'Top 10 authors by earnings',
           collectionId: 'top-10-authors-by-earnings',
           chartData: {
-            x: '',
-            y: '',
-            data: [],
+            x: 'author',
+            y: 'total',
+            data: getPopularAuthorsByRevenew({ books: bestSellers }),
           },
         },
         'bottom-10-authors-by-earnings': {
           collectionLabel: 'Bottom 10 authors by earnings',
           collectionId: 'bottom-10-authors-by-earnings',
           chartData: {
-            x: '',
-            y: '',
-            data: [],
+            x: 'author',
+            y: 'total',
+            data: getPopularAuthorsByRevenew({
+              books: bestSellers,
+              order: 'ASC',
+            }),
           },
         },
         'top-10-authors-with-more-bestsellers': {
