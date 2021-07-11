@@ -128,3 +128,13 @@ export const sortAndTake = <T>({
   );
   return take(sortedCollection, limit);
 };
+
+export const getBooksByAuthor = (books: BestSeller[]) => {
+  const booksByAuthor = groupBy(books, 'author');
+  return map(booksByAuthor, (author) => {
+    return {
+      author: author[0].author,
+      total: author.length,
+    };
+  });
+};

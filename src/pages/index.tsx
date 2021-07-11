@@ -6,6 +6,7 @@ import {
   getTotalBooksPerGenre,
   getPopularAuthorsByReview,
   getPopularAuthorsByRevenew,
+  getAuthorsByBestSeller,
 } from 'dataProcessing/data';
 import { bestSellers } from 'rawData/bestsellers';
 import { PromotionalBanner } from 'components/PromotionalBanner/PromotionalBanner';
@@ -104,7 +105,7 @@ export const getStaticProps = async () => {
           chartData: {
             x: '',
             y: '',
-            data: [],
+            data: getAuthorsByBestSeller({ books: bestSellers }),
           },
         },
         'bottom-10-authors-with-more-bestsellers': {
@@ -113,7 +114,7 @@ export const getStaticProps = async () => {
           chartData: {
             x: '',
             y: '',
-            data: [],
+            data: getAuthorsByBestSeller({ books: bestSellers, order: 'ASC' }),
           },
         },
       },

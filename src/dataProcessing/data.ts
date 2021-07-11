@@ -8,6 +8,7 @@ import {
   getAuthorsAndReviews,
   sortAndTake,
   getAuthorsByRevenew,
+  getBooksByAuthor,
 } from 'dataProcessing/transformers';
 
 type MostReviewedBook = {
@@ -80,6 +81,24 @@ export const getPopularAuthorsByRevenew = ({
   const authorsByRevenew = getAuthorsByRevenew(books);
   return sortAndTake({
     collection: authorsByRevenew,
+    order,
+    keyToOrderBy: 'total',
+    limit,
+  });
+};
+
+export const getAuthorsByBestSeller = ({
+  books,
+  limit = 10,
+  order = 'DESC',
+}: {
+  books: BestSeller[];
+  limit?: number;
+  order?: 'DESC' | 'ASC';
+}) => {
+  const booksByAuthor = getBooksByAuthor(books);
+  return sortAndTake({
+    collection: booksByAuthor,
     order,
     keyToOrderBy: 'total',
     limit,
