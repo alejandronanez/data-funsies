@@ -14,7 +14,7 @@ export function PromotionalBanner({ datasetsSize }: Props) {
             Understand what book to buy.
           </p>
           <p className="max-w-xl mt-5 mx-auto text-xl text-gray-300">
-            We&apos;ve analized over {datasetsSize} books, so you don&apos;t
+            We&apos;ve analyzed over {datasetsSize} books, so you don&apos;t
             have to!
           </p>
         </div>
