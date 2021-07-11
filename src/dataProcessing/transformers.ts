@@ -1,7 +1,9 @@
 import { groupBy, countBy } from 'lodash';
-import { BestSeller, YearIndexes } from 'types/types';
+import { BestSeller, BookGenreIndexes, YearIndexes } from 'types/types';
 
-export function groupBooksByGenre(books: BestSeller[]) {
+export function groupBooksByGenre(
+  books: BestSeller[],
+): BookGenreIndexes<BestSeller[]> {
   const { fiction, nonFiction } = groupBy(books, 'genre');
 
   return {
@@ -10,6 +12,6 @@ export function groupBooksByGenre(books: BestSeller[]) {
   };
 }
 
-export function getTotalBooksPerYear(books: BestSeller[]) {
-  return countBy(books, 'year') as YearIndexes<number>;
+export function getTotalBooksPerYear(books: BestSeller[]): YearIndexes<number> {
+  return countBy(books, 'year');
 }
