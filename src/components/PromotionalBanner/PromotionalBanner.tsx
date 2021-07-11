@@ -9,7 +9,7 @@ export function PromotionalBanner({ datasetsSize }: Props) {
     <div className="bg-gray-900">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-base font-semibold text-indigo-500 tracking-wide uppercase">
+          <h2 className="text-base font-semibold text-indigo-400 tracking-wide uppercase">
             Amazon&apos;s Top selling books from 2009 to 2019
           </h2>
           <p className="mt-1 text-4xl font-extrabold text-gray-100 sm:text-5xl sm:tracking-tight lg:text-6xl">
