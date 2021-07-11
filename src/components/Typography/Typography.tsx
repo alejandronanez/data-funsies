@@ -10,16 +10,16 @@ export function Text({ children }: { children: ReactNode }) {
 
 export function Highlight({
   children,
-  isLink,
+  highlight,
 }: {
   children: ReactNode;
-  isLink?: boolean;
+  highlight?: boolean;
 }) {
   return (
     <span
       className={`font-bold text-normal ${
-        isLink
-          ? 'underline text-indigo-600 cursor-pointer hover:text-indigo-500'
+        highlight
+          ? 'text-indigo-600 cursor-pointer hover:text-indigo-500'
           : 'text-gray-700'
       }`}
     >

@@ -24,17 +24,17 @@ export function DidYouKnow({
     <>
       <Text>
         💡 Did you know that the <Highlight>most reviewed book was</Highlight>{' '}
-        <Highlight isLink>{bookName}</Highlight>, by{' '}
-        <Highlight isLink>{author}</Highlight> with{' '}
+        <Highlight highlight>{bookName}</Highlight>, by{' '}
+        <Highlight highlight>{author}</Highlight> with{' '}
         <Highlight>{formatNumbersToLocaleString(totalReviews)}</Highlight>{' '}
         reviews?
       </Text>
       <Text>
-        🛸 Also, <Highlight isLink>Fiction books</Highlight> got{' '}
+        🛸 Also, <Highlight highlight>Fiction books</Highlight> got{' '}
         <Highlight>
           {formatNumbersToLocaleString(fictionTotalReviews)}
         </Highlight>{' '}
-        total reviews, and <Highlight isLink>Non-Fiction</Highlight> got{' '}
+        total reviews, and <Highlight highlight>Non-Fiction</Highlight> got{' '}
         <Highlight>
           {formatNumbersToLocaleString(nonFictionTotalReviews)}
         </Highlight>{' '}
@@ -45,12 +45,12 @@ export function DidYouKnow({
         <Highlight>{formatNumbersToLocaleString(fictionBestSellers)}</Highlight>{' '}
         out of the{' '}
         <Highlight>{formatNumbersToLocaleString(totalBooks)}</Highlight>{' '}
-        Bestsellers were <Highlight isLink>Fiction books</Highlight> and the
+        Bestsellers were <Highlight highlight>Fiction books</Highlight> and the
         remaining{' '}
         <Highlight>
           {formatNumbersToLocaleString(nonFictionBestSellers)}
         </Highlight>{' '}
-        were <Highlight isLink>Non-Fiction books</Highlight>
+        were <Highlight highlight>Non-Fiction books</Highlight>
       </Text>
     </>
   );

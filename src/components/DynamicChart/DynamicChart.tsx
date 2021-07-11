@@ -38,11 +38,8 @@ export function DynamicChart({ options }: Props) {
   return (
     <div className="my-12">
       <form>
-        <label
-          htmlFor="datasets"
-          className="block text-sm font-medium text-gray-700"
-        >
-          Let&apos;s explore some data
+        <label htmlFor="datasets" className="block font-medium text-gray-700">
+          Let&apos;s explore some of the most relevant data in the dataset
         </label>
         <select
           onChange={handleChange}
@@ -69,6 +66,7 @@ export function DynamicChart({ options }: Props) {
             firstColumnName={optionSelected.chartData.x}
             secondColumnName={optionSelected.chartData.y}
             data={optionSelected.chartData.data}
+            tableName={optionSelected.collectionLabel}
           />
         </>
       ) : null}
