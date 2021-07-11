@@ -1,5 +1,10 @@
 import { InferGetStaticPropsType } from 'next';
-import { getBooksPerYear } from 'dataProcessing/data';
+import {
+  getBooksPerYear,
+  getMostReviewedBook,
+  getMostReviewsPerGenre,
+  getTotalBooksPerGenre,
+} from 'dataProcessing/data';
 import { bestSellers } from 'rawData/bestsellers';
 /* This example requires Tailwind CSS v2.0+ */
 import { PromotionalBanner } from 'components/PromotionalBanner/PromotionalBanner';
@@ -20,15 +25,12 @@ export default function Home({
   );
 }
 export const getStaticProps = async () => {
-  if (!bestSellers.length) {
-    return {
-      notFound: true,
-    };
-  }
-
   return {
     props: {
       booksPerYear: getBooksPerYear(bestSellers),
+      mostReviewedBook: getMostReviewedBook(bestSellers),
+      totalBooksPerGenre: getTotalBooksPerGenre(bestSellers),
+      mostReviewsPerGenre: getMostReviewsPerGenre(bestSellers),
       datasetSize: bestSellers.length,
     },
   };

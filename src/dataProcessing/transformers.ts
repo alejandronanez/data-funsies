@@ -1,4 +1,4 @@
-import { groupBy, countBy, entries } from 'lodash';
+import { groupBy, countBy, entries, maxBy, sumBy, uniqBy } from 'lodash';
 import {
   BestSeller,
   BookGenreIndexes,
@@ -17,7 +17,7 @@ export function groupBooksByGenre(
   };
 }
 
-export function getTotalBooksPerYear(books: BestSeller[]): YearValuePair[] {
+export function totalBooksPerYear(books: BestSeller[]): YearValuePair[] {
   const booksPerYear = countBy(books, 'year');
 
   return entries(booksPerYear).map(([year, value]) => ({
@@ -26,4 +26,32 @@ export function getTotalBooksPerYear(books: BestSeller[]): YearValuePair[] {
     year: +year as Years,
     value,
   }));
+}
+
+export function maxReviewsForBooks(books: BestSeller[]): BestSeller {
+  return maxBy(books, 'reviews');
+}
+
+export function totalBooksPerGenre(
+  books: BestSeller[],
+): BookGenreIndexes<number> {
+  const { fiction, nonFiction } = countBy(books, 'genre');
+
+  return {
+    fiction,
+    nonFiction,
+  };
+}
+
+export function mostReviewsPerGenre(
+  books: BestSeller[],
+): BookGenreIndexes<number> {
+  const { fiction, nonFiction } = groupBy(books, 'genre');
+  const totalFictionReviews = sumBy(uniqBy(fiction, 'name'), 'reviews');
+  const totalNonFictionReviews = sumBy(uniqBy(nonFiction, 'name'), 'reviews');
+
+  return {
+    nonFiction: totalNonFictionReviews,
+    fiction: totalFictionReviews,
+  };
 }
