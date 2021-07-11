@@ -1,5 +1,6 @@
 import { useState, ChangeEvent, useEffect } from 'react';
 import { BarChart } from 'components/BarChart/BarChart';
+import { Table } from 'components/Table/Table';
 
 interface ChartData {
   x: string;
@@ -35,7 +36,7 @@ export function DynamicChart({ options }: Props) {
   }
 
   return (
-    <div className="mt-12">
+    <div className="my-12">
       <form>
         <label
           htmlFor="datasets"
@@ -63,6 +64,11 @@ export function DynamicChart({ options }: Props) {
             x={optionSelected.chartData.x}
             y={optionSelected.chartData.y}
             title={optionSelected.collectionLabel}
+          />
+          <Table
+            firstColumnName={optionSelected.chartData.x}
+            secondColumnName={optionSelected.chartData.y}
+            data={optionSelected.chartData.data}
           />
         </>
       ) : null}
