@@ -27,10 +27,10 @@ export function DidYouKnow({
         <Highlight isLink>{bookName}</Highlight>, by{' '}
         <Highlight isLink>{author}</Highlight> with{' '}
         <Highlight>{formatNumbersToLocaleString(totalReviews)}</Highlight>{' '}
-        reviews.
+        reviews?
       </Text>
       <Text>
-        Also, <Highlight isLink>Fiction books</Highlight> got{' '}
+        🛸 Also, <Highlight isLink>Fiction books</Highlight> got{' '}
         <Highlight>
           {formatNumbersToLocaleString(fictionTotalReviews)}
         </Highlight>{' '}
@@ -41,7 +41,7 @@ export function DidYouKnow({
         total reviews from 2009 to 2019.
       </Text>
       <Text>
-        Another fun fact, is that{' '}
+        📊 Another fun fact, is that{' '}
         <Highlight>{formatNumbersToLocaleString(fictionBestSellers)}</Highlight>{' '}
         out of the{' '}
         <Highlight>{formatNumbersToLocaleString(totalBooks)}</Highlight>{' '}

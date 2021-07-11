@@ -23,9 +23,9 @@ export default function Home({
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
     <div>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <PromotionalBanner datasetsSize={datasetSize} />
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10">
         <div className="max-w-3xl mx-auto">
-          <PromotionalBanner datasetsSize={datasetSize} />
           <Section>
             <DidYouKnow
               bookName={mostReviewedBook.name}
