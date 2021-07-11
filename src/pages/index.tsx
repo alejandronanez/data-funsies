@@ -12,6 +12,7 @@ import { bestSellers } from 'rawData/bestsellers';
 import { PromotionalBanner } from 'components/PromotionalBanner/PromotionalBanner';
 import { Section } from 'components/Layout/Section';
 import { DidYouKnow } from 'components/DidYouKnow/DidYouKnow';
+import { DynamicChart } from 'components/DynamicChart/DynamicChart';
 
 export default function Home({
   datasetSize,
@@ -40,6 +41,7 @@ export default function Home({
           <h2 className="text-4xl font-bold ">
             Let&apos;s explore some author&apos;s data
           </h2>
+          <DynamicChart options={newDataSet} />
         </div>
       </div>
     </div>
@@ -56,8 +58,8 @@ export const getStaticProps = async () => {
       totalBooksPerGenre,
       mostReviewsPerGenre: getMostReviewsPerGenre(bestSellers),
       datasetSize: bestSellers.length,
-      newDataSet: {
-        'top-10-authors-by-reviews': {
+      newDataSet: [
+        {
           collectionLabel: 'Top 10 authors by reviews',
           collectionId: 'top-10-authors-by-reviews',
           chartData: {
@@ -66,7 +68,7 @@ export const getStaticProps = async () => {
             data: getPopularAuthorsByReview({ books: bestSellers }),
           },
         },
-        'bottom-10-authors-by-reviews': {
+        {
           collectionLabel: 'Bottom 10 authors by reviews',
           collectionId: 'bottom-10-authors-by-reviews',
           chartData: {
@@ -78,7 +80,7 @@ export const getStaticProps = async () => {
             }),
           },
         },
-        'top-10-authors-by-earnings': {
+        {
           collectionLabel: 'Top 10 authors by earnings',
           collectionId: 'top-10-authors-by-earnings',
           chartData: {
@@ -87,7 +89,7 @@ export const getStaticProps = async () => {
             data: getPopularAuthorsByRevenew({ books: bestSellers }),
           },
         },
-        'bottom-10-authors-by-earnings': {
+        {
           collectionLabel: 'Bottom 10 authors by earnings',
           collectionId: 'bottom-10-authors-by-earnings',
           chartData: {
@@ -99,7 +101,8 @@ export const getStaticProps = async () => {
             }),
           },
         },
-        'top-10-authors-with-more-bestsellers': {
+
+        {
           collectionLabel: 'Top 10 authors with more bestsellers',
           collectionId: 'top-10-authors-with-more-bestsellers',
           chartData: {
@@ -108,7 +111,7 @@ export const getStaticProps = async () => {
             data: getAuthorsByBestSeller({ books: bestSellers }),
           },
         },
-        'bottom-10-authors-with-more-bestsellers': {
+        {
           collectionLabel: 'Bottom 10 authors with more bestsellers',
           collectionId: 'bottom-10-authors-with-more-bestsellers',
           chartData: {
@@ -117,7 +120,7 @@ export const getStaticProps = async () => {
             data: getAuthorsByBestSeller({ books: bestSellers, order: 'ASC' }),
           },
         },
-      },
+      ],
       dataset: [
         {
           genre: 'Fiction',
