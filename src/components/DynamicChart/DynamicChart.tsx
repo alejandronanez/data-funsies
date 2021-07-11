@@ -29,7 +29,7 @@ export function DynamicChart({ options }: Props) {
       (option) => option.collectionId === optionIndexSelected,
     );
     setOptionSelected(newOption);
-  }, [optionIndexSelected]);
+  }, [options, optionIndexSelected]);
 
   function handleChange(event: ChangeEvent<HTMLSelectElement>) {
     setOptionIndexSelected(event.target.value);
