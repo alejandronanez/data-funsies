@@ -1,4 +1,5 @@
 import { useState, ChangeEvent, useEffect } from 'react';
+import { BarChart } from 'components/BarChart/BarChart';
 
 interface ChartData {
   x: string;
@@ -34,13 +35,13 @@ export function DynamicChart({ options }: Props) {
   }
 
   return (
-    <div>
-      <div>
+    <div className="mt-12">
+      <form>
         <label
           htmlFor="datasets"
           className="block text-sm font-medium text-gray-700"
         >
-          Dataset to explore
+          Let&apos;s explore some data
         </label>
         <select
           onChange={handleChange}
@@ -54,11 +55,15 @@ export function DynamicChart({ options }: Props) {
             </option>
           ))}
         </select>
-      </div>
+      </form>
       {optionSelected ? (
         <>
-          <p className="text-4xl font-bold">{optionSelected.collectionLabel}</p>
-          <pre>{JSON.stringify(optionSelected.chartData.data, null, 2)}</pre>
+          <BarChart
+            data={optionSelected.chartData.data}
+            x={optionSelected.chartData.x}
+            y={optionSelected.chartData.y}
+            title={optionSelected.collectionLabel}
+          />
         </>
       ) : null}
     </div>

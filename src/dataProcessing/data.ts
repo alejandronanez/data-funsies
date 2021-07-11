@@ -53,7 +53,7 @@ export const getMostReviewsPerGenre = (books: BestSeller[]) => {
 
 export const getPopularAuthorsByReview = ({
   books,
-  limit = 10,
+  limit = 5,
   order = 'DESC',
 }: {
   books: BestSeller[];
@@ -71,7 +71,7 @@ export const getPopularAuthorsByReview = ({
 
 export const getPopularAuthorsByRevenew = ({
   books,
-  limit = 10,
+  limit = 5,
   order = 'DESC',
 }: {
   books: BestSeller[];
@@ -89,7 +89,7 @@ export const getPopularAuthorsByRevenew = ({
 
 export const getAuthorsByBestSeller = ({
   books,
-  limit = 10,
+  limit = 5,
   order = 'DESC',
 }: {
   books: BestSeller[];

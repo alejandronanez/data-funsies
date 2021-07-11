@@ -19,7 +19,7 @@ export default function Home({
   mostReviewedBook,
   mostReviewsPerGenre,
   totalBooksPerGenre,
-  newDataSet,
+  dataset,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
     <div>
@@ -38,10 +38,7 @@ export default function Home({
               nonFictionBestSellers={totalBooksPerGenre.nonFiction}
             />
           </Section>
-          <h2 className="text-4xl font-bold ">
-            Let&apos;s explore some author&apos;s data
-          </h2>
-          <DynamicChart options={newDataSet} />
+          <DynamicChart options={dataset} />
         </div>
       </div>
     </div>
@@ -52,16 +49,14 @@ export const getStaticProps = async () => {
 
   return {
     props: {
-      // TODO: Use this somewhere else?
-      booksPerYear: getBooksPerYear(bestSellers),
       mostReviewedBook: getMostReviewedBook(bestSellers),
       totalBooksPerGenre,
       mostReviewsPerGenre: getMostReviewsPerGenre(bestSellers),
       datasetSize: bestSellers.length,
-      newDataSet: [
+      dataset: [
         {
-          collectionLabel: 'Top 10 authors by reviews',
-          collectionId: 'top-10-authors-by-reviews',
+          collectionLabel: 'Top 5 authors by reviews',
+          collectionId: 'top-5-authors-by-reviews',
           chartData: {
             x: 'author',
             y: 'total',
@@ -69,8 +64,8 @@ export const getStaticProps = async () => {
           },
         },
         {
-          collectionLabel: 'Bottom 10 authors by reviews',
-          collectionId: 'bottom-10-authors-by-reviews',
+          collectionLabel: 'Bottom 5 authors by reviews',
+          collectionId: 'bottom-5-authors-by-reviews',
           chartData: {
             x: 'author',
             y: 'total',
@@ -81,8 +76,8 @@ export const getStaticProps = async () => {
           },
         },
         {
-          collectionLabel: 'Top 10 authors by earnings',
-          collectionId: 'top-10-authors-by-earnings',
+          collectionLabel: 'Top 5 authors by earnings',
+          collectionId: 'top-5-authors-by-earnings',
           chartData: {
             x: 'author',
             y: 'total',
@@ -90,8 +85,8 @@ export const getStaticProps = async () => {
           },
         },
         {
-          collectionLabel: 'Bottom 10 authors by earnings',
-          collectionId: 'bottom-10-authors-by-earnings',
+          collectionLabel: 'Bottom 5 authors by earnings',
+          collectionId: 'bottom-5-authors-by-earnings',
           chartData: {
             x: 'author',
             y: 'total',
@@ -103,34 +98,22 @@ export const getStaticProps = async () => {
         },
 
         {
-          collectionLabel: 'Top 10 authors with more bestsellers',
-          collectionId: 'top-10-authors-with-more-bestsellers',
+          collectionLabel: 'Top 5 authors with more bestsellers',
+          collectionId: 'top-5-authors-with-more-bestsellers',
           chartData: {
-            x: '',
-            y: '',
+            x: 'author',
+            y: 'total',
             data: getAuthorsByBestSeller({ books: bestSellers }),
           },
         },
         {
-          collectionLabel: 'Bottom 10 authors with more bestsellers',
-          collectionId: 'bottom-10-authors-with-more-bestsellers',
+          collectionLabel: 'Bottom 5 authors with more bestsellers',
+          collectionId: 'bottom-5-authors-with-more-bestsellers',
           chartData: {
-            x: '',
-            y: '',
+            x: 'author',
+            y: 'total',
             data: getAuthorsByBestSeller({ books: bestSellers, order: 'ASC' }),
           },
-        },
-      ],
-      dataset: [
-        {
-          genre: 'Fiction',
-          value: totalBooksPerGenre.fiction,
-          label: totalBooksPerGenre.fiction,
-        },
-        {
-          genre: 'Non-Fiction',
-          value: totalBooksPerGenre.nonFiction,
-          label: totalBooksPerGenre.nonFiction,
         },
       ],
     },
