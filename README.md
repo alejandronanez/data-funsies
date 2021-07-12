@@ -1,7 +1,7 @@
 # Data Funsies
 
-## The project, from a 30,000 foot view.
-A POC web application built with Next.js used to understand what are the best selling authors from Amazon from 2009-2019 according to the [Amazon Top 50 Bestselling Books 2009-2019](https://www.kaggle.com/sootersaalu/amazon-top-50-bestselling-books-2009-2019) dataset from Kaggle.
+## The project, from a 30,000-foot view.
+A POC web application built with Next.js used to understand what are the best-selling authors from Amazon from 2009-2019 according to the [Amazon Top 50 Bestselling Books 2009-2019](https://www.kaggle.com/sootersaalu/amazon-top-50-bestselling-books-2009-2019) dataset from Kaggle.
 
 ## Product Overview
 Instead of going straight to the Charts, I decided to create a brief marketing focused approach because I consider that charts only tell one part of the story. That said, I created:
@@ -10,11 +10,11 @@ Instead of going straight to the Charts, I decided to create a brief marketing f
 
 After this, I decided to introduce the Dynamic charts. There, I communicate 6 metrics that caught my attention:
 - The 5 Authors with most reviews
-- The 5 Authors with less reviews
+- The 5 Authors with fewer reviews
 - The 5 Authors with most earnings
-- The 5 Authors with less earnings (There are 3 authors that got 0 from their best sellers!)
-- The 5 Authors with most best sellers
-- The 5 Authors with less best sellers
+- The 5 Authors with fewer earnings (There are 3 authors that got 0 from their bestsellers!)
+- The 5 Authors with most bestsellers
+- The 5 Authors with fewer bestsellers
 
 I also created a table to help to communicate the data that's on the Charts, I think that people will appreciate this as well.
 
@@ -27,7 +27,7 @@ static dataset -> data transforming functions -> Next.js getStaticProps -> Stati
 ```
 
 ### The dataset
-The POC doesn't get the dataset from any API, instead, it consumes a static file located in [/src/rawData/bestsellers.ts](https://github.com/alejandronanez/data-funsies/blob/e09e813c6b5a613dae99410882cc06990bba8ee9/src/rawData/bestsellers.ts). The reason for it to be a TypeScript file, and not a `.json` file is because that's the easiest way to know if some of the data is bad formatted / corrupted. It's easy to check this out with this line:
+The POC doesn't get the dataset from any API, instead, it consumes a static file located in [/src/rawData/bestsellers.ts](https://github.com/alejandronanez/data-funsies/blob/e09e813c6b5a613dae99410882cc06990bba8ee9/src/rawData/bestsellers.ts). The reason for it to be a TypeScript file, and not a `.json` file is because that's the easiest way to know if some data is bad formatted / corrupted. It's easy to check this out with this line:
 
 ```typescript
 import { BestSeller } from 'types/types';
@@ -35,7 +35,7 @@ export const bestSellers: BestSeller[] = [...];
 ```
 [link to the code](https://github.com/alejandronanez/data-funsies/blob/e09e813c6b5a613dae99410882cc06990bba8ee9/src/rawData/bestsellers.ts#L1-L3)
 
-It's worth nothing that this dataset is not a 1:1 match of [bestsellers.csv](https://github.com/alejandronanez/data-funsies/blob/e09e813c6b5a613dae99410882cc06990bba8ee9/src/rawData/bestsellers.csv), as I changed it's genre prop from `Non-Fiction` to `nonFiction` and `Fiction` to `fiction`. I found that it was easier to work with _JavaScript_ friendly keys, that's the only reason why I made that change.
+It's worth nothing that this dataset is not a 1:1 match of [bestsellers.csv](https://github.com/alejandronanez/data-funsies/blob/e09e813c6b5a613dae99410882cc06990bba8ee9/src/rawData/bestsellers.csv), as I changed its genre prop from `Non-Fiction` to `nonFiction` and `Fiction` to `fiction`. I found that it was easier to work with _JavaScript_ friendly keys, that's the only reason why I made that change.
 
 ### The data transformation layer
 Almost, if not all, the _heavy_ logic happens on the files inside the [/src/dataProcessing](https://github.com/alejandronanez/data-funsies/tree/e09e813c6b5a613dae99410882cc06990bba8ee9/src/dataProcessing) folder. The idea behind this, was to delegate as much responsibility to the server as possible in order to free up the client to do any expensive computation. Right now it doesn't really matter as we're only processing 550 records, but the dataset could grow in orders of magnitude in the future, and that could seriously affect performance if we do all these computations clientside.  Another reason to delegate all this to the server is that the data transformation will only happen once (at build time), if we were to do this on the client, it will happen on every render!
@@ -98,7 +98,7 @@ With that, I can choose each one of the elements in `dataset` with [this logic](
 
 There we could create three different routes that could expand on specific data:
 
-- `/books/fiction` and `/books/non-fiction`
+- `/books/fiction` + `/books/non-fiction`
 - `/authors/:authorName`
 - `/books/:bookName`
 ### Add more filters
@@ -114,7 +114,7 @@ This feels like it's getting out of control at this point. Move it to the data l
 ## Known issues
 - We don't get the dataset from an API, so it could mean that we have stale data.
 - The dataset is not a 1:1 match with the original `.csv` dataset.
-- Some of the labels on the chart overlap. I tried to solve this by creating a table, I think it works fine, but it's not particularly great. I can see different solutions for this problem:
+- Some labels on the chart overlap. I tried to solve this by creating a table, I think it works fine, but it's not particularly great. I can see different solutions for this problem:
 1. Trim the names if they exceed certain length.
 2. Customize the component that takes care of rendering those labels.
 3. Update the styles for the whole chart.
