@@ -54,7 +54,7 @@ export const getStaticProps = async () => {
       datasetSize: bestSellers.length,
       dataset: [
         {
-          collectionLabel: 'Top 5 authors by reviews',
+          collectionLabel: '5 Authors with more reviews',
           collectionId: 'top-5-authors-by-reviews',
           chartData: {
             x: 'author',
@@ -63,7 +63,7 @@ export const getStaticProps = async () => {
           },
         },
         {
-          collectionLabel: 'Bottom 5 authors by reviews',
+          collectionLabel: '5 Authors with fewer reviews',
           collectionId: 'bottom-5-authors-by-reviews',
           chartData: {
             x: 'author',
@@ -75,7 +75,7 @@ export const getStaticProps = async () => {
           },
         },
         {
-          collectionLabel: 'Top 5 authors by earnings',
+          collectionLabel: '5 Authors with more earnings',
           collectionId: 'top-5-authors-by-earnings',
           chartData: {
             x: 'author',
@@ -84,7 +84,7 @@ export const getStaticProps = async () => {
           },
         },
         {
-          collectionLabel: 'Bottom 5 authors by earnings',
+          collectionLabel: '5 Authors with less earnings',
           collectionId: 'bottom-5-authors-by-earnings',
           chartData: {
             x: 'author',
@@ -97,7 +97,7 @@ export const getStaticProps = async () => {
         },
 
         {
-          collectionLabel: 'Top 5 authors with more bestsellers',
+          collectionLabel: '5 Authors with more bestsellers',
           collectionId: 'top-5-authors-with-more-bestsellers',
           chartData: {
             x: 'author',
@@ -106,8 +106,8 @@ export const getStaticProps = async () => {
           },
         },
         {
-          collectionLabel: 'Bottom 5 authors with more bestsellers',
-          collectionId: 'bottom-5-authors-with-more-bestsellers',
+          collectionLabel: '5 authors with fewer bestsellers',
+          collectionId: 'bottom-5-authors-with-fewer-bestsellers',
           chartData: {
             x: 'author',
             y: 'total',
