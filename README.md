@@ -106,6 +106,11 @@ It will be possible to load more data instead of just datasets of 5 items. Then,
 
 ![](https://cdn.zappy.app/99d35e2d76a065d9d1122d8d70084590.png)
 
+### Move the dataset construction outside of `getStaticProps`
+This feels like it's getting out of control at this point. Move it to the data layer should be easy enough.
+
+[View code](https://github.com/alejandronanez/data-funsies/blob/e09e813c6b5a613dae99410882cc06990bba8ee9/src/pages/index.tsx#L55-L117)
+
 ## Known issues
 - We don't get the dataset from an API, so it could mean that we have stale data.
 - The dataset is not a 1:1 match with the original `.csv` dataset.
