@@ -1,5 +1,13 @@
 # Data Funsies
 
+## How to run this project
+
+```shell
+npm install && npm run dev
+```
+
+And then, open your browser in http://localhost:3000
+
 ## The project, from a 30,000-foot view.
 A POC web application built with Next.js used to understand what are the best-selling authors from Amazon from 2009-2019 according to the [Amazon Top 50 Bestselling Books 2009-2019](https://www.kaggle.com/sootersaalu/amazon-top-50-bestselling-books-2009-2019) dataset from Kaggle.
 
